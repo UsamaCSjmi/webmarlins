@@ -1,0 +1,54 @@
+@media screen and (max-width : 900px){
+    .main-site-content{
+        padding: 70px;
+    }
+    
+    .card{
+        padding: 150px 0;
+    }
+}
+@media screen and (max-width : 900px){
+    .main-site-content{
+        padding: 50px;
+    }
+    
+    .card{
+        padding:100px 20px;
+    }
+    .form{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:620px) {
+    .logo > img{
+        width: 100px;
+    }
+    .button{
+        font-size: 8px;
+        padding: 10px 13px;
+    }
+    .nav-link{
+        font-size: 12px;
+    }
+    .whatsapp{
+        height: 50px;
+        width: 50px;
+    }
+}
+@media screen and (max-width:456px) {
+    .site-header{
+        padding : 0 20px;
+    }
+    .logo > img{
+        width: 70px;
+    }
+    .card-head{
+        font-size: 25px;
+    }
+    .card-para{
+        font-size: 10px;
+    }
+    .card-head2{
+        font-size: 17px;
+    }
+}

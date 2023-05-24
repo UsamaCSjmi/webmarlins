@@ -1,0 +1,180 @@
+@import url(./colors.css);
+@import url(./navbar.css);
+@import url(./buttons.css);
+@import url(./footer.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    overflow-y: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.w-100{
+    width: 100%;
+}
+.container{
+    width: 90%;
+}
+
+.center-flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.evenly-flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.between-flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.around-flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col-flexbox{
+    flex-direction: column;
+}
+
+.gradient-text{
+    background: var(--preset--gradient--luminous-vivid-orange-to-vivid-red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grey-para{
+    color : var(--grey--font);
+}
+
+.defaults {
+    color:var(--theme-custom-color2);
+    font-family:var( --typography-theme-main-font-family ), Sans-serif;
+    font-size:var( --typography-theme-main-font-size );
+    font-weight:var( --typography-theme-main-font-weight );
+    /* line-height:var( --typography-theme-main-line-height ); */
+    letter-spacing:var( --typography-theme-main-letter-spacing );
+    word-spacing:var( --typography-theme-main-word-spacing );
+    /* background-color:var(--theme-body-bg-color); */
+}
+
+
+.site-header{
+    background-color: var(--theme-body-bg-color);
+    box-shadow: 0 0px 8px #cececf;
+    padding: 0px 40px;
+}
+
+.logo > img{
+    width:120px;
+}
+
+
+.main-site-content{
+    padding: 100px;
+}
+
+.card{
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    color: #fff;
+    padding: 200px 0px;
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#FE5862 0%,#FC904A 100%);
+    box-shadow: 0px 0px 51px 0px rgba(9.999999999999991, 50.99999999999997, 80, 0.16);;
+    transition: all 0.5s ease-in-out;
+}
+.card:hover{
+    background: linear-gradient(135deg,#3b3663 0%, #3b3663 100%);
+    transition: all 0.5s ease-in-out;
+}
+
+.card-head{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.card-para{
+    margin-top: 30px;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.card-head2{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.form-input,.form-btn{
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+.form-btn{
+    background: #000;
+    color: #fff;
+
+}
+.whatsapp{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background: #fff;
+    border-radius: 30px;
+}
+.whatsapp img{
+    width: 70%;
+}
+.message{
+    width: 100%;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
+.card-link{
+    color : var(--theme-header-font-color);
+    transition: color 0.5s ease;
+}
+.card:hover .card-link{
+    color : var(--theme-custom-color2);
+    transition: color 0.5s ease;
+
+}
