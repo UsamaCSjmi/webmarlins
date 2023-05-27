@@ -35,6 +35,11 @@
         width: 50px;
     }
 }
+@media screen and (max-width:500px) {
+    .main-site-content{
+        padding: 10px;
+    }
+}
 @media screen and (max-width:456px) {
     .site-header{
         padding : 0 20px;

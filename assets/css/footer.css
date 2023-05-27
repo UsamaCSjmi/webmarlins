@@ -36,8 +36,8 @@ footer{
 @media only screen and (max-width:500px){
     .footer-right-subscription input{width: 60%!important;}
     .footer-right-subscription button{width: 100px!important;}
+    .main-footer-section{text-align: center;}
 }
 .footer-contact{
-    /* width: 50%; */
     padding: 10px;
 }

@@ -7,13 +7,26 @@
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+    transition: background 0.2s ease;
+    border: none;
 }
 
 .primary-button{
     background: var(--preset--gradient--luminous-vivid-orange-to-vivid-red-reverse);
-    transition: background 0.2s ease;
 }
 
 .primary-button:hover{
     transition: background 0.2s ease;
+}
+
+.secondary-button{
+    padding: 15px 20px;
+    border: 1px solid var(--theme-custom-color-start);
+    background-color:var(--preset--color--white) ;
+    color: var(--theme-custom-color-start);
+}
+.secondary-button:hover{
+    transition: all 0.5s ease;
+    background-color: var(--theme-custom-color-start);
+    color:var(--preset--color--white) ;
 }
