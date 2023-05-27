@@ -41,3 +41,9 @@ footer{
 .footer-contact{
     padding: 10px;
 }
+.footer-contact a{
+    color: #3b3663;
+}
+.footer-contact a:hover{
+    color: #ff7426;
+}
