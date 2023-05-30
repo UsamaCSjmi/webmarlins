@@ -1,0 +1,26 @@
+:root{
+    --grey--font:#696687;
+    --preset--color--white: #ffffff;
+
+    --preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+    --preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+    --preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange-reverse: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgba(252,185,0,1) 100%);
+    --preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,#FE5862 0%,#FC904A 100%);
+    --preset--gradient--luminous-vivid-orange-to-vivid-red-reverse: linear-gradient(135deg,#FC904A 0%,#FE5862 100%);
+    --preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+    
+
+    --theme-custom-color:#3b3663;
+    --theme-custom-color2:#ff7426;
+    --theme-content-color:#696687;
+    --theme-secondary-color:#696687;
+    --theme-custom-color-start:#9289f1;
+    --theme-custom-color2-start:#f0ac0e;
+    --theme-header-font-color:#3b3663;
+    --theme-body-bg-color:#ffffff;
+    --primary:#6EC1E4;
+    --secondary:#54595F;
+    --text:#7A7A7A;
+    --accent:#61CE70;
+    
+ }

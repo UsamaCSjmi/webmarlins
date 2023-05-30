@@ -5,9 +5,12 @@ footer{
 
 .footer-top{
     padding: 30px 0;
+    /* height: 50px; */
 }
 .footer-main{
-    grid-template-columns: 30% 20% 20% 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
     line-height: 32px;
     font-size: 16px;
     border: none;
@@ -16,34 +19,48 @@ footer{
     border-top: 1px solid #EBEBEF;
     padding-bottom: 50px ;
 }
+/* .footer-main .grey-para{
+} */
 .footer-heading{
     margin: 50px 0;
     color: #3b3663;
 }
-
+.sm-ft-section{
+    width: 20%;
+}
+.lg-ft-section{
+    width: 30%;
+}
 .footer-bottom{
     width: 100%;
     padding: 20px 0;
     text-align: center;
 }
-.main-footer-section{
-    margin: 0 10px;
-}
 .footer-right-subscription,footer-left-contact-details{
-    width: 100%;
+    width: 50%;
 }
-
-@media only screen and (max-width:500px){
-    .footer-right-subscription input{width: 60%!important;}
-    .footer-right-subscription button{width: 100px!important;}
-    .main-footer-section{text-align: center;}
+.footer-right-subscription input{
+    font-size: 18px;
+    width: 80%;
+    padding: 10px;
+    height: 50px;
+    border: 1px solid #EBEBEF;
+    background: #f9f9f9;
+    border-radius: 5px;
+    color:#918F8F;
+    margin: 0 -8px 0 0;
+}
+.footer-right-subscription button{
+    background: linear-gradient(135deg,#3b3663 0%, #366063 100%);
+    font-size: 18px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    color: #ffffff;
+    width: 20%;
 }
 .footer-contact{
-    padding: 10px;
-}
-.footer-contact a{
-    color: #3b3663;
-}
-.footer-contact a:hover{
-    color: #ff7426;
+    width: 50%;
+    padding: 0 10px;
 }

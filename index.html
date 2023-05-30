@@ -2,29 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Google Tag Manager -->
-    <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TTMP7V3');</script> -->
-    <!-- End Google Tag Manager -->
     <meta name="robots" content="noindex,nofollow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="shortcut icon" href="assets/logo.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/responsive.css">
     <title>Web Marlins</title>
+    <link rel="shortcut icon" href="assets/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
-
-    <!-- Google Tag Manager (noscript) -->
-    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TTMP7V3"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
-    <!-- End Google Tag Manager (noscript) -->
     
-    <div class="site-wrapper w-100">
+    <div class="site-wrapper w-100 defaults">
 
         <header class="w-100">
             <div class="site-header w-100 between-flexbox">
@@ -51,352 +39,61 @@
             </div>
         </header>
 
-        <section class="banner-section grid-2-lg grid-2-md grid-1-sm">
-            <div class="banner-left center-flexbox">
-                <!-- <img class="banner-image" src="https://www.pngmart.com/files/7/Digital-Marketing-Background-PNG.png" alt="Digital Marketing"> -->
-                <img class="banner-image" src="./assets/images/background2.png" alt="Digital Marketing">
+        <div class="main-site-content w-100 center-flexbox">
+            <div class="card center-flexbox col-flexbox">
+                <h1 class="card-head">Coming Soon</h1>
+                <p class="card-para">Our website is under construction, follow us for update now.</p>
+                <div class="evenly-flexbox form">
+                    <div class="upcoming center-flexbox col-flexbox">
+                        <input id = "name" type="text" class="form-input" placeholder="Name">
+                        <span id="name-msg"class="message"></span>
+                    </div>
+                    <div class="upcoming center-flexbox col-flexbox">
+                        <input id = "email" class="form-input"type="email" placeholder="Email">
+                        <span id="email-msg"class="message"></span>
+                    </div>
+                    <div class="upcoming ">
+                        <button type="button" class="form-btn" onclick = "subscribe()">Get Updates</button>
+                    </div>
+                </div>
+                <span id="final-msg"class="message"></span>
+                <h2 class="card-head2">Contact Us On</h2>
+                <a href="tel:+919560518618"class="card-para card-link"> +91 - 95605 18618</a>
+                <a href="mailto:contact@webmarlins.com"class="card-para card-link"> contact@webmarlins.com</a>
+                <div class="social-media-tab">
+                    <ul>
+                        <li>
+                            <a href="https://instagram.com/webmarlins">
+                                <img src="assets/images/instagram.svg" alt="instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/webmarlins/">
+                                <img src="assets/images/linkedin-in.svg" alt="linkedin">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com/webmarlins">
+                                <img src="assets/images/facebook-f.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/WebMarlins">
+                                <img src="assets/images/twitter.svg" alt="twitter">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="whatsapp center-flexbox">
+                    <a href="https://api.whatsapp.com/send/?phone=919560518618" class="w-100 center-flexbox">
+                        <img src="./assets/whatsapp.png" alt="WhatsApp">
+                    </a>
+                </div>
             </div>
-            <div class="banner-right col-flexbox w-100">
-                <div class="banner-title-wrapper">
-                    <div class="banner-title">
-                        <p class="gradient-text banner-title-text">Digital</p>
-                    </div>
-                    <div class="banner-title">
-                        <p class="gradient-text banner-title-text">Marketing</p>
-                    </div>
-                    <div class="banner-title">
-                        <p class="gradient-text banner-title-text" id="banner-title-line">Success</p>
-                    </div>
-                </div>
-                <p class="banner-text">Ensuring the best return on investment for your bespoke SEO campaign requirement.</p>
-                <div class="styled-input-button banner-subscription">
-                    <input type="link" placeholder="https://yoursite.com">
-                    <button>Analyze Your Site</button>
-                </div>
-            </div>
-        </section>
-
-
-        <div class="main-site-content w-100">
-
-            <!-- <div class="card center-flexbox col-flexbox">
-                <h1 class="card-head">See You Soon</h1>
-            </div> -->
-
-            
-            <section class="services-section grid-2-lg grid-1-md grid-1-sm">
-                <div class="services-right">
-                    <div class="main-heading" style="text-align: left;">
-                        <h5 class="small-heading">Why chose us </h5>
-                        <h4 class="mid-heading">Boosts Your Website Traffic!</h4>
-                    </div>
-                    <p class="service-text grey-para ">
-                        We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly website designs to make your business stand out. Our developers are committed to maintaining the highest web standards so that your site will withstand the test of time. We care about your business, which is why we work with you.
-                    </p>
-                    <button class="button secondary-button">Discover More</button>
-                </div>
-                <div class="services-left grid-2-lg grid-2-md grid-1-sm">
-
-                    <div class="grid-item grid-card service-card">
-                        <img src="assets/images/circle_blue.png" alt="">
-                        <h5 class="grid-card-heading">
-                            Product UX, Design & Development
-                        </h5>
-                    </div>
-                   
-
-                    <div class="grid-item grid-card service-card">
-                        <img src="assets/images/circle_orange.png" alt="">
-                        <h5 class="grid-card-heading">
-                            Product UX, Design & Development
-                        </h5>
-                    </div>
-                   
-
-                    <div class="grid-item grid-card service-card">
-                        <img src="assets/images/circle_green.png" alt="">
-                        <h5 class="grid-card-heading">
-                            Product UX, Design & Development
-                        </h5>
-                    </div>
-                   
-
-                    <div class="grid-item grid-card service-card">
-                        <img src="assets/images/circle_purple.png" alt="">
-                        <h5 class="grid-card-heading">
-                            Product UX, Design & Development
-                        </h5>
-                    </div>
-                   
-
-                </div>
-            </section>
-
-
-
-            <section class="services-section grid-2-lg grid-1-md grid-1-sm w-100">
-                
-                <div class="services-left">
-                    <img class="side-background" src="assets/images/background2.png" alt="">
-                </div>
-                <div class="services-right w-100">
-                    <div class="main-heading" style="text-align: left;">
-                        <h5 class="small-heading">EXPERIRNCE</h5>
-                        <h4 class="mid-heading">Pay for Qualified Traffic</h4>
-                    </div>
-                    <p class="service-text grey-para ">
-                        We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly website designs to make your business stand out. Our developers are committed to maintaining the highest web standards so that your site will withstand the test of time. We care about your business, which is why we work with you.
-                    </p>
-                    <div class="graph-section">
-                        <div class="line-graph">
-                            <h6 class="graph-head">SEO Analysis</h6>
-                            <div class="line-graph-line ">
-                                <div class="line-graph-content line-90"></div>
-                            </div>
-                        </div>
-                        <div class="line-graph">
-                            <h6 class="graph-head">SEO Audit</h6>
-                            <div class="line-graph-line ">
-                                <div class="line-graph-content line-95"></div>
-                            </div>
-                        </div>
-                        <div class="line-graph">
-                            <h6 class="graph-head">Optimization</h6>
-                            <div class="line-graph-line ">
-                                <div class="line-graph-content line-87"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="button secondary-button">Discover More</button>
-                </div>
-            </section>
-
-
-            <section class="services-section grid-2-lg grid-1-md grid-1-sm">
-                
-                <div class="services-left grid-2-lg grid-2-md grid-1-sm">
-
-                    <div class="grid-item grid-card service-card">
-                        <p class="gradient-text card-gradient-big center-flexbox">89%</p>
-                        <p class="graph-head">Digital global audience reach</p>
-                    </div>
-                    <div class="grid-item grid-card service-card">
-                        <p class="gradient-text card-gradient-big center-flexbox">89%</p>
-                        <p class="graph-head">Digital global audience reach</p>
-                    </div>
-                    <div class="grid-item grid-card service-card">
-                        <p class="gradient-text card-gradient-big center-flexbox">89%</p>
-                        <p class="graph-head">Digital global audience reach</p>
-                    </div>
-                    <div class="grid-item grid-card service-card">
-                        <p class="gradient-text card-gradient-big center-flexbox">89%</p>
-                        <p class="graph-head">Digital global audience reach</p>
-                    </div>
-                   
-
-                </div>
-                <div class="services-right w-100">
-                    <img class="side-background" src="assets/images/background.png" alt="">
-                </div>
-            </section>
-
-            <section class="section-type-2 w-100">
-                <div class="main-heading">
-                    <h5 class="small-heading">Small heading </h5>
-                    <h4 class="mid-heading">Medium Heading</h4>
-                </div>
-
-                <div class="grid-3-lg grid-2-md grid-1-sm">
-                    <div class="grid-item grid-item-background-image center-flexbox">
-                        <img class="grid-card-background" src="./assets/images/1.webp" alt="">
-                        <div class="grid-card-front  between-flexbox col-flexbox">
-                            <div class="grid-card-upper w-100">
-                                <p class="card-date">May 26, 2023</p>
-                                <p class="card-text text-white-bold">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, officiis.
-                                </p>
-                            </div>
-                            <div class="grid-card-link between-flexbox w-100">
-                                <a class="link-white" href="#">Read more</a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid-item grid-item-background-image center-flexbox">
-                        <img class="grid-card-background" src="./assets/images/2.jpg" alt="">
-                        <div class="grid-card-front  between-flexbox col-flexbox">
-                            <div class="grid-card-upper w-100">
-                                <p class="card-date">May 26, 2023</p>
-                                <p class="card-text text-white-bold">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, officiis.
-                                </p>
-                            </div>
-                            <div class="grid-card-link between-flexbox w-100">
-                                <a class="link-white" href="#">Read more</a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid-item grid-item-background-image center-flexbox">
-                        <img class="grid-card-background" src="./assets/images/1.webp" alt="">
-                        <div class="grid-card-front  between-flexbox col-flexbox">
-                            <div class="grid-card-upper w-100">
-                                <p class="card-date">May 26, 2023</p>
-                                <p class="card-text text-white-bold">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, officiis.
-                                </p>
-                            </div>
-                            <div class="grid-card-link between-flexbox w-100">
-                                <a class="link-white" href="#">Read more</a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid-item grid-item-background-image center-flexbox">
-                        <img class="grid-card-background" src="./assets/images/2.jpg" alt="">
-                        <div class="grid-card-front  between-flexbox col-flexbox">
-                            <div class="grid-card-upper w-100">
-                                <p class="card-date">May 26, 2023</p>
-                                <p class="card-text text-white-bold">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, officiis.
-                                </p>
-                            </div>
-                            <div class="grid-card-link between-flexbox w-100">
-                                <a class="link-white" href="#">Read more</a>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-
-
-            <section class="why-chose-us section-type-1 w-100">
-                <div class="main-heading">
-                    <h5 class="small-heading">Why chose us </h5>
-                    <h4 class="mid-heading">What We Offer</h4>
-                </div>
-
-                <div class="grid-3-lg grid-2-md grid-1-sm">
-                    <div class="grid-item grid-card">
-                        <h5 class="grid-card-heading">
-                            SEO
-                        </h5>
-                        <div class="grid-card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta necessitatibus omnis voluptatum, pariatur quam rem quo enim. Et, laboriosam accusantium.
-                        </div>
-                        .
-                    </div>
-                   
-                    <div class="grid-item grid-card">
-                        <h5 class="grid-card-heading">
-                            SEO
-                        </h5>
-                        <div class="grid-card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta necessitatibus omnis voluptatum, pariatur quam rem quo enim. Et, laboriosam accusantium.
-                        </div>
-                        .
-                    </div>
-                   
-                    <div class="grid-item grid-card">
-                        <h5 class="grid-card-heading">
-                            SEO
-                        </h5>
-                        <div class="grid-card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta necessitatibus omnis voluptatum, pariatur quam rem quo enim. Et, laboriosam accusantium.
-                        </div>
-                        .
-                    </div>
-                   
-                    <div class="grid-item grid-card">
-                        <h5 class="grid-card-heading">
-                            SEO
-                        </h5>
-                        <div class="grid-card-text">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta necessitatibus omnis voluptatum, pariatur quam rem quo enim. Et, laboriosam accusantium.
-                        </div>
-                        .
-                    </div>
-                   
-                </div>
-
-            </section>
-
-
         </div>
 
-        <footer class = "w-100 center-flexbox">
-            <div class="container">
-                <div class="footer-top w-100">
-                    <div class="grid-2-lg grid-1-md grid-1-sm">
-                        <div class="grid-2-lg grid-1-md grid-1-sm footer-left-contact-details">
-                            <div class="footer-contact">
-                                <a href="tel:+919560518618">+91 - 95605 18618</a>
-                                <br>
-                                <a href="mailto:contact@webmarlins.com">contact@webmarlins.com</a>
-                            </div>
-                            <div class="footer-contact">
-                                <h5>Paryavaran Complex, B - 77/3, </h5>
-                                <h5>IGNOU Main Rd, Sainik Farm, </h5>
-                                <h5> New Delhi, Delhi 110030</h5>
-                            </div>
-                        </div>
-                        <div class="footer-right-subscription styled-input-button">
-                            <input type="email" placeholder="Email here">
-                            <button>Sign Up</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-100 grid-4-lg grid-2-md grid-1-sm footer-main ">
-                    <div class="main-footer-section lg-ft-section">
-                        <h4 class="footer-heading">About</h4>
-                        <div class="footer-section-content">
-                            <p class="grey-para">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste fugit dolore nihil voluptates voluptatibus alias nulla atque ut laboriosam ullam!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="main-footer-section sm-ft-section">
-                        <h4 class="footer-heading">Services</h4>
-                        <div class="footer-section-content">
-                           <ul>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Services</p></li>
-                            <li><p class="grey-para">Pay per click</p></li>
-                            <li><p class="grey-para">Social Media</p></li>
-                            <li><p class="grey-para">SEO Audit</p></li>
-                           </ul>
-                        </div>
-                    </div>
-                    <div class="main-footer-section sm-ft-section">
-                        <h4 class="footer-heading">Community</h4>
-                        <div class="footer-section-content">
-                           <ul>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                           </ul>
-                        </div>
-                    </div>
-                    <div class="main-footer-section sm-ft-section">
-                        <h4 class="footer-heading">Quicks Links</h4>
-                        <div class="footer-section-content">
-                           <ul>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                           </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom">
-                    &copy;Web Marlins - 2023
-                </div>
-            </div>
+        <footer>
+
         </footer>
 
 
@@ -405,6 +102,5 @@
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script type="text/javascript" src="./assets/js/index.js"></script>
-    <!-- <script type="text/javascript" src="./assets/js/font_animation.js"></script> -->
 </body>
 </html>
