@@ -29,6 +29,21 @@ li{
     list-style: none;
 }
 
+.scroll-to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px;
+    background: var(--theme-custom-color2);
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+}
+.scroll-to-top img{
+    width: 20px;
+    filter: invert(1);
+}
+
 .w-100{
     width: 100%;
 }
@@ -154,6 +169,19 @@ li{
 
 .mid-heading{
     font-size: 25px;
+}
+.big-heading{
+    font-size: 50px;
+}
+
+.has-underline,.has-underline h3{
+    display: inline;
+}
+.underline{
+    width: 30%;
+    height: 5px;
+    border-radius: 2px;
+    background: var(--preset--gradient--luminous-vivid-orange-to-vivid-red);
 }
 
 .styled-input-button{
@@ -413,7 +441,7 @@ li{
 
 .grid-item-background-image{
     position: relative;
-    min-height: 300px;
+    height: 300px;
     background: #252A3F;
     overflow: hidden;
 }
@@ -497,4 +525,89 @@ li{
 .service-card:hover .graph-head{
     transition: color 0.5s ease;
     color: #ffffff;
+}
+.owl-nav{
+    display: none;
+}
+.owl-dot span{
+    background-color: #6254e7!important;
+}
+.owl-dot span:hover{
+    background-color: #6254e7!important;
+}
+.owl-dots .active span{
+    width: 20px !important;
+}
+
+
+/* ==========================About Us============================= */
+.about-banner-section{
+    padding: 100px 0 200px 0;
+    color: #ffffff;
+    position: relative;
+    overflow-y: hidden;
+}
+.about-background{
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.about-banner-section h1{
+    margin: 20px 0 ;
+    font-size: 35px;
+}
+.banner-links{
+    /* margin: 20px 0; */
+}
+.previous-link{
+    color: #ffffff;
+    text-decoration: none;
+}
+.this-page{
+    position: relative;
+    margin-left:20px
+}
+.this-page::before{
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: -15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #FC904A;
+}
+.about-us-cards{
+    margin-top: -125px;
+}
+.backgroung-color-1{
+    background-color: #f0fffc;
+}
+.backgroung-color-2{
+    background-color: #fffcf6;
+}
+.backgroung-color-3{
+    background-color: #f9f8ff;
+}
+.about-card{
+    border-radius: 15px;
+    padding: 60px 40px;
+    text-align: center;
+    margin: 0 10px;
+}
+.about-card img{
+    width: 150px;
+}
+.about-us-card-head{
+    font-size: 25px;
+    font-weight: bold;
+    color: #366063;
+    margin: 20px 0;
+}
+.about-us-card-text{
+    font-size: 18px;
+    color: #918F8F;
+    line-height: 23px;
 }

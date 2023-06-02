@@ -1,0 +1,2 @@
+RewriteEngine On
+Redirect /about.html /index.html
