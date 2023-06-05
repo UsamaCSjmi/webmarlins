@@ -30,6 +30,10 @@
 
         <header class="w-100">
             <div class="site-header w-100 between-flexbox">
+                <div class="center-flexbox menu-buttons">
+                    <img id="menu-open" onclick="menu('open')" class="menu-btn" src="./assets/images/menu-open.svg" alt="menu_open">
+                    <img id="menu-close" onclick="menu('close')" class="menu-btn" src="./assets/images/menu-close.svg" alt="menu_close">
+                </div>
                 <div class="header-part left">
                     <div class="logo">
                         <img src="./assets/logo.jpeg" alt="">
@@ -37,12 +41,15 @@
                 </div>
                 <div class="header-part center">
                     <nav class="navigation">
-                        <ul class="nav-list">
+                        <ul id="nav-list" class="nav-list">
                             <li class="nav-list-item">
-                                <a class="nav-link active" href="index.html">Home</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-list-item">
                                 <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a class="nav-link active" href="services.html">Services</a>
                             </li>
                             <li class="nav-list-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
@@ -56,33 +63,68 @@
             </div>
         </header>
 
-        <section class="banner-section grid-2-lg grid-2-md grid-1-sm">
-            <div class="banner-left center-flexbox">
-                <img class="banner-image" src="./assets/images/background2.png" alt="Digital Marketing">
-            </div>
-            <div class="banner-right col-flexbox w-100">
-                <div class="banner-title-wrapper">
-                    <div class="banner-title">
-                        <p class="gradient-text banner-title-text">Digital</p>
-                    </div>
-                    <div class="banner-title">
-                        <p class="gradient-text banner-title-text">Marketing</p>
-                    </div>
-                    <div class="banner-title">
-                        <p class="gradient-text banner-title-text" id="banner-title-line">Success</p>
-                    </div>
-                </div>
-                <p class="banner-text">Ensuring the best return on investment for your bespoke SEO campaign requirement.</p>
-                <div class="styled-input-button banner-subscription">
-                    <input type="url" placeholder="https://yoursite.com">
-                    <button>Analyze Your Site</button>
-                </div>
+        <section class="about-banner-section w-100 center-flexbox col-flexbox">
+            <img src="./assets/images/about.jpg" alt="About Us" class="about-background">
+            <h1>Contact Us</h1>
+            <div class="banner-links center-flexbox">
+                <a href="./index.html" class="previous-link">Home</a>
+                <p class="this-page">Contact Us</p>
             </div>
         </section>
 
 
         <div class="main-site-content w-100">
+           
+
             
+            
+            <section class="services-section grid-1-lg grid-1-md grid-1-sm w-100">                
+                <div class="main-heading w-100">
+                    <h5 class="small-heading">Business</h5>
+                    <h4 class="mid-heading">Find the Perfect Solution for Your Business</h4>
+                    <p class="grey-para">
+                        Lorem Ipsum ogravida nibh vel velit auctor alinean sollicitudi orem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh porttitor aliquam ex est
+                    </p>
+                </div>
+               <img src="./assets/images/background7.jpg" class="w-100" alt="background">
+            </section>
+            
+            <section class="grid-2-lg grid-1-md grid-1-sm">
+                
+                <section class="contact-info">
+                    <div class="main-heading w-100" style="text-align: left;">
+                        <h5 class="small-heading">GET IN TOUCH</h5>
+                        <h4 class="mid-heading">Contact Us</h4>
+                        <p class="grey-para w-80" >
+                            I have worls-class, flexible support via live chat, email and hone. I guarantee that you'll be able to have any issue resolved within 24 hours.
+                        </p>
+                    </div>
+                    <div class="main-heading w-100" style="text-align: left;">
+                        <h5 class="small-heading">Phone:</h5>
+                        <a href="tel:+919560518618" class="grey-para">+91 - 95605 18618</a>
+                    </div>
+                    <div class="main-heading w-100" style="text-align: left;">
+                        <h5 class="small-heading">Send Email:</h5>
+                        <a href="mailto:contact@webmarlins.com" class="grey-para">contact@webmarlins.com</a>
+                    </div>
+                    <div class="main-heading w-100" style="text-align: left;">
+                        <h5 class="small-heading">Address:</h5>
+                        <p class="grey-para">
+                            Paryavaran Complex, B - 77/3,<br>
+                            IGNOU Main Rd, Sainik Farm,<br>
+                            New Delhi, Delhi 110030
+                            </p>
+                    </div>
+                </section>
+                
+                <section class="cloud-background services-section w-100 center-flexbox col-flexbox">
+                    <div class="main-heading w-100" style="text-align: left;">
+                        <h4 class="mid-heading" >Drop Us a Line</h4>
+                    </div>
+                
+                </section>
+            </section>
+        
             <section class="services-section grid-2-lg grid-1-md grid-1-sm">
                 <div class="services-right">
                     <div class="main-heading" style="text-align: left;">
@@ -476,8 +518,6 @@
                     <span class="underline"></span>
                 </div>
             </section>
-
-
         </div>
 
         <footer class = "w-100 center-flexbox">

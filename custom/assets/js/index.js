@@ -55,3 +55,19 @@ function showMessage(type){
     }
     console.log(type);
 }
+
+function menu(action){
+    main_menu = document.getElementById('nav-list');
+    open_btn = document.getElementById('menu-open');
+    close_btn = document.getElementById('menu-close');
+    if(action=="open"){
+        open_btn.style.display = "none";
+        close_btn.style.display = "block";
+        main_menu.classList.add("active-nav")
+    }
+    else if(action == "close"){
+        close_btn.style.display = "none";
+        open_btn.style.display = "block";
+        main_menu.classList.remove("active-nav")
+    }
+}

@@ -3,10 +3,51 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 9;
 }
-
+@media only screen and (max-width:700px){
+    .nav-list {
+        align-items: flex-start;
+        flex-direction: column;
+        position: absolute;
+        left: -200px;
+        background: #fff;
+        top: 106px;
+        transition: left 0.5s ease;
+        box-shadow: 0px 20px 29px 0px rgba(9.999999999999991, 50.99999999999997, 80, 0.16);
+    }
+}
+.active-nav{
+    
+    transition: left 0.5s ease;
+    left: 0;
+}
+@media only screen and (max-width:458px){
+    .nav-list {
+        top: 76px;
+    }
+}
+.menu-buttons{
+    display: none!important;
+}
+.menu-btn{
+    width: 25px;   
+}
+@media only screen and (max-width:700px){
+    .menu-buttons{
+        display: flex!important;
+    }
+}
+#menu-close{
+    display: none;
+}
 .nav-list-item{
     padding: 0 20px;
+}
+@media only screen and (max-width:700px){
+    .nav-list-item {
+        padding: 20px 50px;
+    }
 }
 .nav-link{
     font-size: 15px;

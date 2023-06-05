@@ -12,11 +12,11 @@
     <meta name="robots" content="noindex,nofollow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="shortcut icon" href="assets/logo.jpeg" type="image/x-icon">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="shortcut icon" href="./assets/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>Web Marlins</title>
 </head>
 <body>
@@ -30,6 +30,10 @@
 
         <header class="w-100">
             <div class="site-header w-100 between-flexbox">
+                <div class="menu-buttons center-flexbox">
+                    <img id="menu-open" onclick="menu('open')" class="menu-btn" src="./assets/images/menu-open.svg" alt="menu_open">
+                    <img id="menu-close" onclick="menu('close')" class="menu-btn" src="./assets/images/menu-close.svg" alt="menu_close">
+                </div>
                 <div class="header-part left">
                     <div class="logo">
                         <img src="./assets/logo.jpeg" alt="">
@@ -37,12 +41,12 @@
                 </div>
                 <div class="header-part center">
                     <nav class="navigation">
-                        <ul class="nav-list">
+                        <ul id="nav-list" class="nav-list">
                             <li class="nav-list-item">
-                                <a class="nav-link active" href="index.html">Home</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-list-item">
-                                <a class="nav-link" href="about.html">About Us</a>
+                                <a class="nav-link active" href="about.html">About Us</a>
                             </li>
                             <li class="nav-list-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
@@ -279,40 +283,90 @@
                 </div>
 
                 <div class="grid-3-lg grid-2-md grid-1-sm">
+                    
                     <div class="grid-item grid-card">
-                        <h5 class="grid-card-heading">
-                            SEO
-                        </h5>
+                        <div class="service-card-header">
+                            <img src="./assets/images/w1.png" class="card-service-icon absolute-behind" alt="Services icon">
+                            <img src="./assets/images/w1a.png" class="card-service-icon full-visible-icon" alt="Services icon">
+                            <h5 class="grid-card-heading">
+                                SEO
+                            </h5>
+                        </div>
                         <div class="grid-card-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta necessitatibus omnis voluptatum, pariatur quam rem quo enim. Et, laboriosam accusantium.
                         </div>
                         .
                     </div>
                    
+                    
                     <div class="grid-item grid-card">
-                        <h5 class="grid-card-heading">
-                            SEO
-                        </h5>
+                        <div class="service-card-header">
+                            <img src="./assets/images/w2.png" class="card-service-icon absolute-behind" alt="Services icon">
+                            <img src="./assets/images/w2a.png" class="card-service-icon full-visible-icon" alt="Services icon">
+                            <h5 class="grid-card-heading">
+                                SEO
+                            </h5>
+                        </div>
                         <div class="grid-card-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta necessitatibus omnis voluptatum, pariatur quam rem quo enim. Et, laboriosam accusantium.
                         </div>
                         .
                     </div>
                    
+                    
                     <div class="grid-item grid-card">
-                        <h5 class="grid-card-heading">
-                            SEO
-                        </h5>
+                        <div class="service-card-header">
+                            <img src="./assets/images/w3.png" class="card-service-icon absolute-behind" alt="Services icon">
+                            <img src="./assets/images/w3a.png" class="card-service-icon full-visible-icon" alt="Services icon">
+                            <h5 class="grid-card-heading">
+                                SEO
+                            </h5>
+                        </div>
                         <div class="grid-card-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta necessitatibus omnis voluptatum, pariatur quam rem quo enim. Et, laboriosam accusantium.
                         </div>
                         .
                     </div>
                    
+                    
                     <div class="grid-item grid-card">
-                        <h5 class="grid-card-heading">
-                            SEO
-                        </h5>
+                        <div class="service-card-header">
+                            <img src="./assets/images/w4.png" class="card-service-icon absolute-behind" alt="Services icon">
+                            <img src="./assets/images/w4a.png" class="card-service-icon full-visible-icon" alt="Services icon">
+                            <h5 class="grid-card-heading">
+                                SEO
+                            </h5>
+                        </div>
+                        <div class="grid-card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta necessitatibus omnis voluptatum, pariatur quam rem quo enim. Et, laboriosam accusantium.
+                        </div>
+                        .
+                    </div>
+                   
+                    
+                    <div class="grid-item grid-card">
+                        <div class="service-card-header">
+                            <img src="./assets/images/w5.png" class="card-service-icon absolute-behind" alt="Services icon">
+                            <img src="./assets/images/w5a.png" class="card-service-icon full-visible-icon" alt="Services icon">
+                            <h5 class="grid-card-heading">
+                                SEO
+                            </h5>
+                        </div>
+                        <div class="grid-card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta necessitatibus omnis voluptatum, pariatur quam rem quo enim. Et, laboriosam accusantium.
+                        </div>
+                        .
+                    </div>
+                   
+                    
+                    <div class="grid-item grid-card">
+                        <div class="service-card-header">
+                            <img src="./assets/images/w6.png" class="card-service-icon absolute-behind" alt="Services icon">
+                            <img src="./assets/images/w6a.png" class="card-service-icon full-visible-icon" alt="Services icon">
+                            <h5 class="grid-card-heading">
+                                SEO
+                            </h5>
+                        </div>
                         <div class="grid-card-text">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta necessitatibus omnis voluptatum, pariatur quam rem quo enim. Et, laboriosam accusantium.
                         </div>
