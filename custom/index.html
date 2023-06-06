@@ -28,9 +28,10 @@
     
     <div class="site-wrapper w-100">
 
+         
         <header class="w-100">
             <div class="site-header w-100 between-flexbox">
-                <div class="menu-buttons center-flexbox">
+                <div class="center-flexbox menu-buttons">
                     <img id="menu-open" onclick="menu('open')" class="menu-btn" src="./assets/images/menu-open.svg" alt="menu_open">
                     <img id="menu-close" onclick="menu('close')" class="menu-btn" src="./assets/images/menu-close.svg" alt="menu_close">
                 </div>
@@ -46,7 +47,33 @@
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-list-item">
-                                <a class="nav-link active" href="about.html">About Us</a>
+                                <a class="nav-link" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-list-item has-sub-nav">
+                                <a class="nav-link active" href="#">Services</a>
+                                <ul class="sub-nav-list">
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">SEO</a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">PPC</a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">Web Designing</a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">Social Media Marketing</a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">Content Writing</a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">Website Development</a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">Email Marketing</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="nav-list-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
@@ -55,10 +82,13 @@
                     </nav>
                 </div>
                 <div class="header-part right">
-                    <a href="#" class="button primary-button">get in touch</a>
+                    <a href="contact.html" class="button primary-button">get in touch</a>
                 </div>
             </div>
         </header>
+
+
+
 
         <section class="banner-section grid-2-lg grid-2-md grid-1-sm">
             <div class="banner-left center-flexbox">
@@ -581,10 +611,10 @@
                         <h4 class="footer-heading">Community</h4>
                         <div class="footer-section-content">
                            <ul>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
+                            <li><a href="contact.html" class="grey-para">Contact</a></li>
+                            <li><a href="services.html" class="grey-para">Services</a></li>
+                            <li><a href="about.html" class="grey-para">About Us</a></li>
+                            <li><a href="index.html" class="grey-para">Home</a></li>
                            </ul>
                         </div>
                     </div>
@@ -592,10 +622,10 @@
                         <h4 class="footer-heading">Quicks Links</h4>
                         <div class="footer-section-content">
                            <ul>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
+                            <li><a href="contact.html" class="grey-para">Contact</a></li>
+                            <li><a href="services.html" class="grey-para">Services</a></li>
+                            <li><a href="about.html" class="grey-para">About Us</a></li>
+                            <li><a href="index.html" class="grey-para">Home</a></li>
                            </ul>
                         </div>
                     </div>
@@ -605,6 +635,7 @@
                 </div>
             </div>
         </footer>
+
 
 
     </div>
@@ -621,6 +652,7 @@
             loop:true,
             margin:10,
             nav:true,
+            autoplay:true,
 
             responsive:{
                 0:{

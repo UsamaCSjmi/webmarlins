@@ -229,6 +229,17 @@ li{
     margin-bottom: 10px;
     margin-top: 30px;
 }
+.bold{
+    font-weight: bold;
+}
+.link-dark{
+    color: #3b3663;
+    transition: color 0.5s ease;
+}
+.link-dark:hover{
+    color: #6254e7;
+    transition: color 0.5s ease;
+}
 .dark-blue-faded{
     color: #3b3663af;
 }
@@ -748,4 +759,42 @@ li{
 .service-box-number{
     margin-top : 20px;
     font-weight: bold;
+}
+.contact-info .main-heading{
+    margin : 30px 0;
+}
+.contact-container{
+    padding: 40px;
+    border-radius: 20px;
+}
+.contact-form input, .contact-form textarea{
+    margin : 10px 5px;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #cececf;
+    color: #696687;
+    font-size: 15px;
+    resize: none;
+}
+.contact-form input:focus-visible, .contact-form textarea:focus-visible{
+    outline: none;
+}
+.img-wrap {
+    height: 340px;
+    overflow: hidden;
+
+}
+.text-wrap .grey-para{
+    padding: 15px 0;
+}
+.img-wrap img {
+    transition: all 0.5s ease;
+}
+.img-wrap:hover img {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+.services-box{
+    margin: 10px;
 }

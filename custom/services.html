@@ -30,7 +30,7 @@
 
         <header class="w-100">
             <div class="site-header w-100 between-flexbox">
-                <div class="menu-buttons center-flexbox">
+                <div class="center-flexbox menu-buttons">
                     <img id="menu-open" onclick="menu('open')" class="menu-btn" src="./assets/images/menu-open.svg" alt="menu_open">
                     <img id="menu-close" onclick="menu('close')" class="menu-btn" src="./assets/images/menu-close.svg" alt="menu_close">
                 </div>
@@ -48,8 +48,31 @@
                             <li class="nav-list-item">
                                 <a class="nav-link" href="about.html">About Us</a>
                             </li>
-                            <li class="nav-list-item">
-                                <a class="nav-link active" href="services.html">Services</a>
+                            <li class="nav-list-item has-sub-nav">
+                                <a class="nav-link active" href="#">Services</a>
+                                <ul class="sub-nav-list">
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">SEO</a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">PPC</a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">Web Designing</a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">Social Media Marketing</a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">Content Writing</a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">Website Development</a>
+                                    </li>
+                                    <li class="nav-list-item">
+                                        <a href="services.html" class="nav-link">Email Marketing</a>
+                                    </li>
+                                </ul>
                             </li>
                             <li class="nav-list-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
@@ -58,7 +81,7 @@
                     </nav>
                 </div>
                 <div class="header-part right">
-                    <a href="#" class="button primary-button">get in touch</a>
+                    <a href="contact.html" class="button primary-button">get in touch</a>
                 </div>
             </div>
         </header>
@@ -74,70 +97,82 @@
 
 
         <div class="main-site-content w-100">
-            <section class="about-us-cards grid-3-lg grid-1-md grid-1-sm">
-                <div class="about-card backgroung-color-1 center-flexbox col-flexbox">
-                    <img src="./assets/images/card1.png" alt="card">
-                    <h3 class="about-us-card-head">Competitor Analysis</h3>
-                    <p class="about-us-card-text">Delectus recteque has ne, no pro tation commodo. Ea libris utamur vix, in sumo augue soluta vis.</p>
-                </div>
-                <div class="about-card backgroung-color-2 center-flexbox col-flexbox">
-                    <img src="./assets/images/card2.png" alt="card">
-                    <h3 class="about-us-card-head">Competitor Analysis</h3>
-                    <p class="about-us-card-text">Delectus recteque has ne, no pro tation commodo. Ea libris utamur vix, in sumo augue soluta vis.</p>
-                </div>
-                <div class="about-card backgroung-color-3 center-flexbox col-flexbox">
-                    <img src="./assets/images/card3.png" alt="card">
-                    <h3 class="about-us-card-head">Competitor Analysis</h3>
-                    <p class="about-us-card-text">Delectus recteque has ne, no pro tation commodo. Ea libris utamur vix, in sumo augue soluta vis.</p>
-                </div>
-            </section>
-            
+           
 
 
-            <section class="services-section grid-2-lg grid-1-md grid-1-sm w-100">
+            <section class="services-section w-100">
                 
-                <div class="services-left">
-                    <img class="side-background" src="assets/images/background6.png" alt="">
+                <div class="main-heading w-100">
+                    <h5 class="small-heading">Previous Projects</h5>
+                    <h4 class="mid-heading">Our Case Studies</h4>
                 </div>
-                <div class="services-right w-100">
-                    <div class="main-heading" style="text-align: left;">
-                        <h5 class="small-heading">What we do</h5>
-                        <h4 class="mid-heading">We Provided Best PPC Services</h4>
-                    </div>
 
-                    <div class="grid-2-lg grid-1-md grid-1-sm">
-                        <div class="service-box">
-                            <p class="service-box-number color-orange">01</p>
-                            <h6 class="graph-head" style="margin-top: 0;">SEO Services</h6>
-                            <p class="service-text grey-para ">
-                                We are passionate about our work. Our designers stay ahead of the curve to with you.
-                            </p>
-                        </div>
-                        <div class="service-box">
-                            <p class="service-box-number color-orange">02</p>
-                            <h6 class="graph-head" style="margin-top: 0;">PPC Services</h6>
-                            <p class="service-text grey-para ">
-                                We are passionate about our work. Our designers stay ahead of the curve to with you.
-                            </p>
-                        </div>
-                        <div class="service-box">
-                            <p class="service-box-number color-orange">03</p>
-                            <h6 class="graph-head" style="margin-top: 0;">Ad Copywriting</h6>
-                            <p class="service-text grey-para ">
-                                We are passionate about our work. Our designers stay ahead of the curve to with you.
-                            </p>
-                        </div>
-                        <div class="service-box">
-                            <p class="service-box-number color-orange">04</p>
-                            <h6 class="graph-head" style="margin-top: 0;">Penalty Recovery</h6>
-                            <p class="service-text grey-para ">
-                                We are passionate about our work. Our designers stay ahead of the curve to with you.
-                            </p>
-                        </div>
-                    </div>
 
-                    <button class="button secondary-button">Discover More</button>
-                </div>
+
+                <section class="services-section grid-3-lg grid-2-md grid-1-sm w-100">
+
+                    <div class="services-box">
+                        <a href="#" class="w-100">
+                            <div class="img-wrap w-100">
+                                <img src="./assets/images/sc1.jpg" alt="Service Image" class="w-100">
+                            </div>
+                            <div class="text-wrap">
+                                <p class="grey-para">Web</p>
+                                <a href="#" class="bold link-dark">Technology Agency</a>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="services-box">
+                        <a href="#" class="w-100">
+                            <div class="img-wrap w-100">
+                                <img src="./assets/images/sc2.jpg" alt="Service Image" class="w-100">
+                            </div>
+                            <div class="text-wrap">
+                                <p class="grey-para">Web</p>
+                                <a href="#" class="bold link-dark">Technology Agency</a>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="services-box">
+                        <a href="#" class="w-100">
+                            <div class="img-wrap w-100">
+                                <img src="./assets/images/sc3.jpg" alt="Service Image" class="w-100">
+                            </div>
+                            <div class="text-wrap">
+                                <p class="grey-para">Web</p>
+                                <a href="#" class="bold link-dark">Technology Agency</a>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="services-box">
+                        <a href="#" class="w-100">
+                            <div class="img-wrap w-100">
+                                <img src="./assets/images/sc2.jpg" alt="Service Image" class="w-100">
+                            </div>
+                            <div class="text-wrap">
+                                <p class="grey-para">Web</p>
+                                <a href="#" class="bold link-dark">Technology Agency</a>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="services-box">
+                        <a href="#" class="w-100">
+                            <div class="img-wrap w-100">
+                                <img src="./assets/images/sc1.jpg" alt="Service Image" class="w-100">
+                            </div>
+                            <div class="text-wrap">
+                                <p class="grey-para">Web</p>
+                                <a href="#" class="bold link-dark">Technology Agency</a>
+                            </div>
+                        </a>
+                    </div>
+                
+                </section>
+
             </section>
 
 
@@ -714,10 +749,10 @@
                         <h4 class="footer-heading">Community</h4>
                         <div class="footer-section-content">
                            <ul>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
+                            <li><a href="contact.html" class="grey-para">Contact</a></li>
+                            <li><a href="services.html" class="grey-para">Services</a></li>
+                            <li><a href="about.html" class="grey-para">About Us</a></li>
+                            <li><a href="index.html" class="grey-para">Home</a></li>
                            </ul>
                         </div>
                     </div>
@@ -725,10 +760,10 @@
                         <h4 class="footer-heading">Quicks Links</h4>
                         <div class="footer-section-content">
                            <ul>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
-                            <li><p class="grey-para">SEO Marketing</p></li>
+                            <li><a href="contact.html" class="grey-para">Contact</a></li>
+                            <li><a href="services.html" class="grey-para">Services</a></li>
+                            <li><a href="about.html" class="grey-para">About Us</a></li>
+                            <li><a href="index.html" class="grey-para">Home</a></li>
                            </ul>
                         </div>
                     </div>
