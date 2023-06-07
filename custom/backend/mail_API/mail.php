@@ -7,9 +7,25 @@ use PHPMailer\PHPMailer\Exception;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $data = json_decode(file_get_contents('php://input'), true);
+    $name = "";
+    $email  = "";
+    $website = "";
+    $phone = "";
+    $msg = "";
     if ($data) {
         $from = $data['email'];
-        $name = $data['name'];
+        if(isset($data['name'])){
+            $name = $data['name'];
+        }
+        if(isset($data['website'])){
+            $website = $data['website'];
+        }
+        if(isset($data['phone'])){
+            $phone = $data['phone'];
+        }
+        if(isset($data['message'])){
+            $msg = $data['message'];
+        }
         $response = 'success';
     } 
     else {
@@ -28,7 +44,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     $to2='contact@webmarlins.com';
     // $to='nhusain34@gmail.com';
     $subject="Update from webmarlins.com.";
-    $message1 = "\nEmail : ".$from."\n\n Name : ".$name;
+    $message1 = "\nEmail : ".$from."\n\n Name : ".$name."\n\n Website : ".$website."\n\n Phone : ".$phone."\n\n Message : ".$msg;
 }
 else{
     header($header);

@@ -21,17 +21,44 @@ function subscribe(){
         n_msg.classList.add("error");
         n_msg.innerText = "Name can't be empty";
     }
+    data_object = {
+        email: email,
+        name: name
+    }
     if(alright){
-        const location = "./backend/mail_API/mail.php";
+        send_mail(data_object);
+    }
+}
+
+function sign_up(){
+    const email = document.getElementById('email_sign_up').value;
+    let msg= document.getElementById('final-msg');
+    msg.innerText = "";
+    msg.classList.remove("error");
+    msg.classList.remove("success");
+    
+    var alright = true;
+    if(email == "" ){
+        alright = false;
+        msg.classList.add("error");
+        msg.innerText = "Email can't be empty";
+    }
+    data_object = {
+        email: email
+    }
+    if(alright){
+        send_mail(data_object);
+    }
+}
+
+function send_mail(data_object){
+    const location = "./backend/mail_API/mail.php";
 
         axios(
             {
                 method: "post",
                 url: location,
-                data:{
-                    email: email,
-                    name: name
-                }
+                data: data_object
             }
         )
         .then(function (response) {
@@ -40,11 +67,10 @@ function subscribe(){
         .catch(function (error) {
             showMessage("error");
         });
-    }
 }
 
 function showMessage(type){
-    let msg= document.getElementById('final-msg');
+    let msg = document.getElementById('final-msg');
     if(type == "success"){
         msg.classList.add('success');
         msg.innerText = "Thank You. We will contact you shortly";
