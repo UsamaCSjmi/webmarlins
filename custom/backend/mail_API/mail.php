@@ -12,8 +12,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $website = "";
     $phone = "";
     $msg = "";
+    $from = "";
     if ($data) {
-        $from = $data['email'];
+        if(isset($data['email'])){
+            $from = $data['email'];
+        }
         if(isset($data['name'])){
             $name = $data['name'];
         }

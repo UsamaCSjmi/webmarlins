@@ -44,13 +44,13 @@
                     <nav class="navigation">
                         <ul id="nav-list" class="nav-list">
                             <li class="nav-list-item">
-                                <a class="nav-link" href="index.html">Home</a>
+                                <a class="nav-link active" href="index.html">Home</a>
                             </li>
                             <li class="nav-list-item">
                                 <a class="nav-link" href="about.html">About Us</a>
                             </li>
                             <li class="nav-list-item has-sub-nav">
-                                <a class="nav-link active" href="#">Services</a>
+                                <a class="nav-link" href="#">Services</a>
                                 <ul class="sub-nav-list">
                                     <li class="nav-list-item">
                                         <a href="seo.html" class="nav-link">SEO</a>
@@ -108,9 +108,10 @@
                 </div>
                 <p class="banner-text">Ensuring the best return on investment for your bespoke SEO campaign requirement.</p>
                 <div class="styled-input-button banner-subscription">
-                    <input type="url" placeholder="https://yoursite.com">
-                    <button>Analyze Your Site</button>
+                    <input type="url" id="url" placeholder="https://yoursite.com">
+                    <button type="button" onclick="analyze_site()">Analyze Your Site</button>
                 </div>
+                <p id="analyze-msg" class=""></p>
             </div>
         </section>
 
@@ -170,7 +171,7 @@
             <section class="services-section grid-2-lg grid-1-md grid-1-sm w-100">
                 
                 <div class="services-left">
-                    <img class="side-background" src="assets/images/background2.png" alt="">
+                    <img class="side-background" src="assets/images/background.png" alt="">
                 </div>
                 <div class="services-right w-100">
                     <div class="main-heading" style="text-align: left;">
@@ -229,7 +230,7 @@
 
                 </div>
                 <div class="services-right w-100">
-                    <img class="side-background" src="assets/images/background.png" alt="">
+                    <img class="side-background" src="assets/images/background12.jpg" alt="">
                 </div>
             </section>
 
@@ -642,7 +643,7 @@
 
 
     </div>
-    <div class="scroll-to-top center-flexbox">
+    <div onclick="scrollToTop()" class="scroll-to-top center-flexbox">
         <img src = "assets/images/scroll-to-top.svg"/>
     </div>
 

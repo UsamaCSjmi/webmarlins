@@ -30,6 +30,27 @@ function subscribe(){
     }
 }
 
+function analyze_site(){
+    const website = document.getElementById('url').value;
+    let msg= document.getElementById('analyze-msg');
+    msg.innerText = "";
+    msg.classList.remove("error");
+    msg.classList.remove("success");
+    
+    var alright = true;
+    if(website == "" ){
+        alright = false;
+        msg.classList.add("error");
+        msg.innerText = "Website can't be empty";
+    }
+    data_object = {
+        website: website
+    }
+    if(alright){
+        send_mail(data_object,"analyze-msg");
+    }    
+}
+
 function sign_up(){
     const email = document.getElementById('email_sign_up').value;
     let msg= document.getElementById('final-msg');
@@ -51,7 +72,40 @@ function sign_up(){
     }
 }
 
-function send_mail(data_object){
+function send_contact(){
+    const email = document.getElementById('email').value;
+    const name = document.getElementById('name').value;
+    const website = document.getElementById('website').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+    let msg= document.getElementById('final-msg');
+    msg.innerText = "";
+    
+    var alright = true;
+    if(email == "" ){
+        alright = false;
+        msg.classList.add("error");
+        msg.innerText = "Email can't be empty";
+    }
+    else if(name == ""){
+        alright = false;
+        msg.classList.add("error");
+        msg.innerText = "Name can't be empty";
+    }
+    data_object = {
+        email: email,
+        name: name,
+        website : website,
+        phone : phone,
+        message : message
+    }
+    if(alright){
+        send_mail(data_object);
+    }
+}
+
+function send_mail(data_object,id){
+    id = id || "final-msg";
     const location = "./backend/mail_API/mail.php";
 
         axios(
@@ -62,15 +116,15 @@ function send_mail(data_object){
             }
         )
         .then(function (response) {
-            showMessage(response.data);
+            showMessage(response.data,id);
         })
         .catch(function (error) {
-            showMessage("error");
+            showMessage("error",id);
         });
 }
 
-function showMessage(type){
-    let msg = document.getElementById('final-msg');
+function showMessage(type,id){
+    let msg = document.getElementById(id);
     if(type == "success"){
         msg.classList.add('success');
         msg.innerText = "Thank You. We will contact you shortly";
@@ -96,4 +150,8 @@ function menu(action){
         open_btn.style.display = "block";
         main_menu.classList.remove("active-nav")
     }
+}
+
+function scrollToTop() {
+    window.scrollTo(0, 0);
 }
