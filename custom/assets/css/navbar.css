@@ -1,4 +1,9 @@
-
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
 .nav-list{
     display: flex;
     align-items: center;
@@ -51,7 +56,7 @@
 .sub-nav-list{
     z-index: 99;
     position: absolute;
-    top: 25px;
+    top: 40px;
     padding: 20px;
     background: #fff;
     width: max-content;
@@ -61,6 +66,22 @@
     opacity: 0;
     visibility: hidden;
     transition: visibility .25s,opacity .25s,transform .25s;
+}
+.sub-nav-list::before{
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: 15px;
+    z-index: 2;
+    display: block;
+    width: 16px;
+    height: 16px;
+    -webkit-transform: rotate(-45deg) translateY(1rem);
+    -ms-transform: rotate(-45deg) translateY(1rem);
+    transform: rotate(-45deg) translateY(1rem);
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: none;
 }
 .has-sub-nav:hover .sub-nav-list{
     transform: translate(0);
