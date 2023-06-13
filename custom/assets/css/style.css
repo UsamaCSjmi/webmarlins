@@ -19,8 +19,12 @@ font-family: 'Rubik', sans-serif;
 */
 
 body{
+    position: relative;
     font-family: 'Nunito', sans-serif;
     transition: all 0.5s ease;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y:auto
 }
 
 a{
@@ -349,6 +353,9 @@ li{
     font-size: 18px;
     color: #918F8F;
     margin: 100px 0 10px 0;
+}
+#banner-title-line{
+    height: 61px;
 }
 .banner-subscription{
     width: 90%;
@@ -986,4 +993,145 @@ li{
 }
 .main-up-pricing .grey-para,.main-up-pricing .package-item::marker{
     color: #fff;
+}
+/*
+.dot{
+    height: 5px;
+    width: 5px;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;    
+     animation: dotMovement 10s linear infinite;
+    z-index: 9999;
+}
+@keyframes dotMovement {
+    0%{
+        left: 40px;
+        bottom: 0;
+    }
+
+    25%{
+        left: 60px;
+        bottom: 25%;
+    }
+    50%{
+        left: 40px;
+        bottom: 50%;
+    }
+    75%{
+        left: 60px;
+        bottom: 75%;
+    }
+    100%{
+        left: 40px;
+        bottom: 100%;
+    }
+}
+*/
+.bubbles_wrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    overflow: hidden;
+    pointer-events: none;
+}
+.bubble {
+    border-radius: 50%;
+    box-shadow: none;
+    height: 5px;
+    position: absolute;
+    width: 5px;
+}
+.x1 {
+    -webkit-animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 15s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    left: 6%;
+    top: 45%;
+    background: #ffb739;
+}
+.x2 {
+    -webkit-animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 10s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    left: 5%;
+    top: 80%;
+    background: #fc4fdd;
+}
+.x3{
+    -webkit-animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+animation: animateBubble 18s linear infinite,sideWays 2s ease-in-out infinite alternate;
+left: 10%;
+top: 40%;
+background: #5ed5cb;
+}
+.x4{
+    -webkit-animation: animateBubble 12s linear infinite,sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 12s linear infinite,sideWays 3s ease-in-out infinite alternate;
+    left: 20%;
+    top: 0;
+    background: #3de4a3;
+}
+.x5{
+    -webkit-animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    left: 30%;
+    top: 50%;
+    background: #fc4fb1;
+}
+.x6{
+    -webkit-animation: animateBubble 11s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 11s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    left: 50%;
+    top: 0;
+    background: #2c4aff;
+}
+.x7{
+    -webkit-animation: animateBubble 10s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 10s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    left: 65%;
+    top: 70%;
+    background: #ffb739;
+}
+.x8{
+    -webkit-animation: animateBubble 12s linear infinite,sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 12s linear infinite,sideWays 3s ease-in-out infinite alternate;
+    left: 80%;
+    top: 10%;
+    background: #8f3de4;
+}
+.x9{
+    -webkit-animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 19s linear infinite,sideWays 4s ease-in-out infinite alternate;
+    left: 90%;
+    top: 50%;
+    background: #fff339;
+}
+.x10{
+    -webkit-animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 16s linear infinite,sideWays 2s ease-in-out infinite alternate;
+    left: 80%;
+    top: 80%;
+    background: #fc4f4f;
+}
+@-webkit-keyframes animateBubble{
+    0%{margin-top:20%}
+    to{margin-top:-30%}
+}
+@-moz-keyframes animateBubble{
+    0%{margin-top:20%}to{margin-top:-30%}
+}
+@keyframes animateBubble{
+    0%{margin-top:20%}to{margin-top:-30%}
+}
+@-webkit-keyframes sideWays{
+    0%{margin-left:0}to{margin-left:25px}
+}
+@-moz-keyframes sideWays{
+    0%{margin-left:0}to{margin-left:25px}
+}
+@keyframes sideWays{
+    0%{margin-left:0}to{margin-left:25px}
 }

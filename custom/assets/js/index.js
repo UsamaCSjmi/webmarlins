@@ -1,3 +1,43 @@
+// animateDots();
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
+// async function animateDots(){
+    
+//     let body = document.getElementById('body');
+//     var colors = ["#ff7426","#42cd83","#3b3663","#696687","#7164ea","#f29111","#6EC1E4","#695ce8","#ff4a69"];
+//     var left = [20,30,40,50,100,80,70,60,10];
+//     let left_len = left.length;
+//     let left_index=0;
+//     let color_index = 0;
+//     let len = colors.length;
+
+//     while(color_index<len){
+        
+//         createDot(colors[color_index],left[left_index]+"%");
+
+//         left_index =( left_index + 1)%left_len; 
+//         color_index = (color_index + 1); 
+
+//         console.log("done "+color_index);
+
+//         await sleep(2000);
+    
+//     }
+    
+// }
+
+// function createDot(color,left){
+//     let dot = document.createElement('span');
+//     dot.style.background = color;
+//     dot.style.left = left;
+//     dot.classList.add("dot");
+//     body.appendChild(dot); 
+// }
+
 
 function subscribe(){
 

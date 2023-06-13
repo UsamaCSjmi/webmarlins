@@ -1,7 +1,5 @@
 animate_words_characters();
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
+
 async function animate_words_characters(){
     const words=["Success","Services","Business"];
     var element = document.getElementById('banner-title-line');
