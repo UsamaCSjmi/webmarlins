@@ -116,7 +116,8 @@ function send_contact(){
     const email = document.getElementById('email').value;
     const name = document.getElementById('name').value;
     const website = document.getElementById('website').value;
-    const phone = document.getElementById('phone').value;
+    const service = document.getElementById('service').value;
+    // const phone = document.getElementById('phone').value;
     const message = document.getElementById('message').value;
     let msg= document.getElementById('final-msg');
     msg.innerText = "";
@@ -136,7 +137,7 @@ function send_contact(){
         email: email,
         name: name,
         website : website,
-        phone : phone,
+        service : service,
         message : message
     }
     if(alright){

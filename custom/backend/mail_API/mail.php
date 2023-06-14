@@ -13,6 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $phone = "";
     $msg = "";
     $from = "";
+    $service="";
     if ($data) {
         if(isset($data['email'])){
             $from = $data['email'];
@@ -28,6 +29,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         if(isset($data['message'])){
             $msg = $data['message'];
+        }
+        if(isset($data['service'])){
+            $service = $data['service'];
         }
         $response = 'success';
     } 
@@ -47,7 +51,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     $to2='contact@webmarlins.com';
     // $to='nhusain34@gmail.com';
     $subject="Update from webmarlins.com.";
-    $message1 = "\nEmail : ".$from."\n\n Name : ".$name."\n\n Website : ".$website."\n\n Phone : ".$phone."\n\n Message : ".$msg;
+    $message1 = "\nEmail : ".$from."\n\n Name : ".$name."\n\n Website : ".$website."\n\n Phone : ".$phone."\n\n Message : ".$msg."\n\n Service : ".$service;
 }
 else{
     header($header);
