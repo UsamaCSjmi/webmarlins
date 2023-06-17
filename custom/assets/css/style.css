@@ -1171,7 +1171,7 @@ background: #5ed5cb;
 .review::after{
     position: absolute;
     left: 0;
-    bottom: -26px;
+    bottom: -25px;
     content: "";
     width: 0;
     height: 0;

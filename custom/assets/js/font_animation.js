@@ -1,7 +1,7 @@
 animate_words_characters();
 
 async function animate_words_characters(){
-    const words=["Success","Services","Business"];
+    const words=["Business","Solutions","Services","Presence"];
     var element = document.getElementById('banner-title-line');
     element.innerText="";
     const total_words = words.length;
