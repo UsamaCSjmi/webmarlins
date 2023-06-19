@@ -70,6 +70,39 @@ function subscribe(){
     }
 }
 
+function home_contact(){
+
+    const email = document.getElementById('email').value;
+    const name = document.getElementById('name').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('msg').value;
+
+    let msg= document.getElementById('f-msg');
+
+    msg.innerText = "";
+    
+    var alright = true;
+    if(email == "" ){
+        alright = false;
+        msg.classList.add("error");
+        msg.innerText = "Email can't be empty";
+    }
+    if(name == ""){
+        alright = false;
+        msg.classList.add("error");
+        msg.innerText = "Name can't be empty";
+    }
+    data_object = {
+        email: email,
+        name: name,
+        phone: phone,
+        message:message
+    }
+    if(alright){
+        send_mail(data_object,'f-msg');
+    }
+}
+
 function analyze_site(){
     const website = document.getElementById('url').value;
     let msg= document.getElementById('analyze-msg');
