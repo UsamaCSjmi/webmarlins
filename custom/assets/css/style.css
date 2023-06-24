@@ -72,9 +72,12 @@ li{
     color: #ffffff;
 }
 
-.grid-1-lg,.grid-1-md,.grid-1-sm,.grid-2-lg,.grid-2-md,.grid-2-sm,.grid-3-lg,.grid-3-md,.grid-3-sm,.grid-4-lg,.grid-4-md,.grid-4-sm{
+.grid-1-lg,.grid-1-md,.grid-1-sm,.grid-2-lg,.grid-2-md,.grid-2-sm,.grid-3-lg,.grid-3-md,.grid-3-sm,.grid-4-lg,.grid-4-md,.grid-4-sm,.grid-5-lg,.grid-5-md,.grid-5-sm{
     display: grid;
     /* gap: 30px; */
+}
+.grid-5-lg{
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 .grid-4-lg{
     grid-template-columns: 25% 25% 25% 25%;
@@ -89,6 +92,10 @@ li{
     grid-template-columns: 100%;
 }
 @media only screen and (max-width : 1000px){
+
+    .grid-5-md{
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
     .grid-4-md{
         grid-template-columns: 25% 25% 25% 25%;
     }
@@ -103,6 +110,10 @@ li{
     }
 }
 @media only screen and (max-width : 500px){
+
+    .grid-5-sm{
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
     .grid-4-sm{
         grid-template-columns: 25% 25% 25% 25%;
     }
@@ -504,6 +515,9 @@ li{
     background: var(--theme-custom-color);
     color:#ffffff;
 }
+.grid-card:hover .grey-para{
+    color: #ffffff;
+}
 
 .grid-card:hover .grid-card-heading{
     color: #ffffff;
@@ -734,7 +748,7 @@ li{
     padding: 30px;
 }
 .timeline{
-    height: 200px;
+    /*height: 200px;*/
     width: 1000px;
 }
 @media only screen and ( max-width : 1000px ){
@@ -745,6 +759,7 @@ li{
 @media only screen and ( max-width : 700px ){
     .timeline{
         width: 100%;
+        margin:10px 0;
     }
 }
 .timeline-box{
@@ -785,6 +800,14 @@ li{
 .timeline-year{
     font-size: 20px;
     width: 45%;
+}
+@media only screen and ( max-width : 700px ){
+    .timeline-box{
+        width : 70%;
+    }
+    .timeline-year{
+        width:20%;
+    }
 }
 .border-right{
     border: none;
@@ -884,6 +907,12 @@ li{
 .styled-list-item::marker{
     color: #6254e7;
     font-size: 20px;
+}
+.process-card{
+    background: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 51px 0px rgba(9.999999999999991, 50.99999999999997, 80, 0.16);
 }
 .card-2{
     margin: 20px;
@@ -1336,3 +1365,61 @@ background: #5ed5cb;
 .work-container:hover .work-checkout-btn{
     bottom: 30%;
 }
+.checked-li{
+    position:relative;
+    margin-left: 10px;
+}
+.checked-li::marker{
+    content:"";
+    display: none;
+}
+.checked-li::before{
+    position: absolute;
+    top: 3px;
+    left: -30px;
+    content: "✓";
+    color: #6254e7;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #cececf;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.grey-background{
+    background: #f2f0fe;
+}
+.percent-fill-circle{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    border-radius: 50%;
+    padding:20px
+}
+.main-circle{
+    background: #fff;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* 
+68554
+
+Muqallid 
+Ajmal Attar Mumbai
+*/
