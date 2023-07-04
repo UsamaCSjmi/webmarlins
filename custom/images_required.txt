@@ -1,0 +1,49 @@
+Images Required for the designed Pages for webmarlins.Company
+
+NOTE : All Image sizes are in pixels(px), followed by allowed image formats
+
+
+Logo : 100 x 100 PNG/SVG
+Logo : 16 x 16 ICO 
+
+Home Page : 
+    Banner 750 x 750 PNG
+    "Pay for Qualified Traffic" - 750 x 750 PNG/JPG
+    89% - Striking ROI, 89% - Increased Conversions ... - 750 x 750 PNG
+    Captivate Convert, Conquer - 400 x 400 ( 4 images ) JPG/PNG/WEBP
+    Get Free Website Analysis - 750 x 750 PNG
+
+About Us : 
+    Banner ("About Us") - 2000 x 600 PNG/JPG/WEBP
+    "Web Marlins - Revolutionizing Digital Marketing Since 2017 " - 750 x 750 PNG
+    "Our Strengths in Driving Digital Success" - 750 x 750 PNG
+    "Web Marlin’s Excels In" (Background Image) - 2000 x 2000 JPEG/JPG/WEBP (optional)
+
+SEO : 
+    Banner (Background Image in light colour) "We Provide Best SEO Services" - 2000 x 2000 JPG/JPEG/PNG/Webp 
+    "Empower Your Digital Footprint: Web Marlins' Refined SEO Solutions." (Background Image in light colour) - 2000 x 2000 JPG/PNG/WEBP
+    "Ignite Your Online Presence" - 750 x 750 PNG
+
+PPC : 
+    Banner (Background Image in light colour) - 2000 x 800 PNG/JPG/WEBP
+    "Pay Per Click" - 400 x 400 PNG
+    "Boost Sales with ROI-Focused PPC Agency in Delhi" - 750 x 750 PNG
+    "PPC Services at Web Marlins" (Background Image) - 2000 x 2000 JPEG/JPG/WEBP 
+
+Web Design : 
+    Banner (Background Image in light colour) - 2000 x 1500 PNG/JPG/WEBP
+    "Leading Web Design Agency in Delhi" -  (Background Image) - 2000 x 2000 JPEG/JPG/WEBP
+    "Web Marlins: Unveiling our Dynamic Web Design Process for Unmatched Digital Experiences" - 600 x 600 PNG
+    "What Sets Web Marlins Apart " - (Background Image) - 2000 x 2000 JPEG/JPG/WEBP
+    "What Sets Web Marlins Apart " - 750 x 750 PNG
+    "Unlock the Power of High-End Web Design with Web Marlins" - JPG/PNG/WEBP
+    "Exceeding Industry Standards" - 400 x 400 PNG/JPG/WEBP
+    "Creative Brains" - 400 x 400 PNG/JPG/WEBP
+    "Perfection" - 400 x 400 PNG/JPG/WEBP
+
+Social Media Marketing : 
+    Banner (Background Image in light colour) - 2000 x 1500 PNG/JPG/WEBP
+    "Social Media Marketing" - 750 x 750 PNG
+    "Grow your business with Social Eyes" - 750 x 750 PNG
+    "At Social Eyes, we :" - (Background Image) - 2000 x 1000 JPEG/JPG/WEBP 
+    "What Makes Web Marlins Best Social Media Marketing Company in Delhi" - 750 x 750 PNG

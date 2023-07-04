@@ -9,7 +9,7 @@
                 <img src="./assets/logo.jpeg" alt="">
             </a>
         </div>
-        <div class="header-part center">
+        <div id="navigation-part" class="header-part center">
             <nav class="navigation">
                 <ul id="nav-list" class="nav-list">
                     <li class="nav-list-item">
@@ -22,7 +22,7 @@
                         <a class="nav-link" href="#">Services</a>
                         <ul class="sub-nav-list">
                             <li class="nav-list-item">
-                                <a href="seo" class="nav-link">SEO</a>
+                                <a href="seo-services" class="nav-link">SEO</a>
                             </li>
                             <li class="nav-list-item">
                                 <a href="ppc-services" class="nav-link">PPC</a>
@@ -31,13 +31,13 @@
                                 <a href="web-design-services" class="nav-link">Web Designing</a>
                             </li>
                             <li class="nav-list-item">
-                                <a href="smm" class="nav-link">Social Media Marketing</a>
+                                <a href="social-media-services" class="nav-link">Social Media Marketing</a>
                             </li>
                             <li class="nav-list-item">
-                                <a href="content-writing" class="nav-link">Content Writing</a>
+                                <a href="content-writing-services" class="nav-link">Content Writing</a>
                             </li>
                             <li class="nav-list-item">
-                                <a href="web-development" class="nav-link">Website Development</a>
+                                <a href="web-development-services" class="nav-link">Website Development</a>
                             </li>
                             <li class="nav-list-item">
                                 <a href="email-marketing" class="nav-link">Email Marketing</a>

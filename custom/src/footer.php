@@ -52,12 +52,12 @@
                 <h4 class="footer-heading">Services</h4>
                 <div class="footer-section-content">
                     <ul>
-                        <li><a href="seo" class="grey-para">SEO</a></li>
-                        <li><a href="smm" class="grey-para">Social Media Marketing</a></li>
+                        <li><a href="seo-services" class="grey-para">SEO</a></li>
+                        <li><a href="social-media-services" class="grey-para">Social Media Marketing</a></li>
                     <li><a href="ppc-services" class="grey-para">PPC</a></li>
                     <li><a href="web-design-services" class="grey-para">Website Designing</a></li>
-                    <li><a href="web-development" class="grey-para">Website Development</a></li>
-                    <li><a href="content-writing" class="grey-para">Content Writing</a></li>
+                    <li><a href="web-development-services" class="grey-para">Website Development</a></li>
+                    <li><a href="content-writing-services" class="grey-para">Content Writing</a></li>
                     <li><a href="email-marketing" class="grey-para">Email Marketing</a></li>
                     </ul>
                 </div>
@@ -68,7 +68,7 @@
                 <div class="footer-section-content">
                     <ul>
                     <li><a href="contact" class="grey-para">Contact</a></li>
-                    <li><a href="seo" class="grey-para">Services</a></li>
+                    <li><a href="seo-services" class="grey-para">Services</a></li>
                     <li><a href="about" class="grey-para">About Us</a></li>
                     <li><a href=./ class="grey-para">Home</a></li>
                     </ul>

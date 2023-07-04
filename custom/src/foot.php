@@ -60,6 +60,23 @@
                 }
             }
         })
+        $('#packages').owlCarousel({
+            loop:true,
+            margin:0,
+            nav:true,
+            autoplay:false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
     </script>
     <script type="text/javascript" src="./assets/js/font_animation.js"></script>
 </body>

@@ -20,18 +20,21 @@ include "./src/head.php";
                     <div class="main-heading w-100" style="text-align: left;">
                         <h4 class="mid-heading">Pay Per Click</h4>
                         <ul class="styled-list"style="margin-bottom:20px">
-                            <li class="styled-list-item checked-li">Boost Targeted Traffic to Your Website</li>
-                            <li class="styled-list-item checked-li">Increases Sales</li>
-                            <li class="styled-list-item checked-li">Higher ROI</li>
+                            <li class="styled-list-item checked-li">Increased Website Traffic</li>
+                            <li class="styled-list-item checked-li">Higher Conversion Rates</li>
+                            <li class="styled-list-item checked-li">Improved Return on Investment (ROI)</li>
+                            <li class="styled-list-item checked-li">Enhanced Brand Visibility and Awareness</li>
                         </ul>
                     </div>
                 </div>
                 
             </div>
         </section>
+
+
         <section class="contact-form-line-section grey-background w-100">
             <div class="main-heading w-100" style="margin: 0;padding: 10px 0;">
-                <h4 class="mid-heading" style="margin: 0;padding: 10px 0;">Get A Free PPC Proposal</h4>
+                <h4 class="mid-heading" style="margin: 0;padding: 10px 0;">Unlock Your PPC Potential with a Complimentary Proposal</h4>
                 <div class="home-contact-form w-100">
                     <div class="grid-4-lg grid-2-md grid-1-sm w-100">
                         <input type="text" id="name" placeholder="Name*">
@@ -56,18 +59,11 @@ include "./src/head.php";
                         <h4 class="mid-heading">Boost Sales with ROI-Focused PPC Agency in Delhi</h4>
                     </div>
                     <p class="service-text grey-para ">
-                        Maximize Sales with ROI-Driven PPC agency in Delhi
-                        <br><br>
-                        Web Marlins offers customized PPC campaigns that focus on increasing targeted traffic, brand exposure, and sales through ROI-driven strategies. Work with a PPC company in Delhi for a strategic and effective PPC campaign tailored to your business needs from research to ad copywriting to help generate more leads and increase website traffic.
-                        <br><br>
+                    You may achieve unequaled growth and significantly boost your revenue generation with Web Marlins, a leading ROI-focused PPC company in Delhi. Our cutting-edge strategies are designed to maximize conversions and raise income, ensuring your business realizes exceptional returns on investment. Our seasoned PPC experts use cutting-edge tools and data-driven analytics to optimize your advertising. We outperform the opposition and take command of SERPs, setting up your business for success. Our offerings include everything from thorough keyword research to ad optimization strategies. <br><br>
+                    Our sophisticated approach, which includes A/B testing and remarketing, maximizes conversions and expands revenue sources. To make wise business decisions and utilize your marketing budget, rely on our thorough reports and transparent insights.<br><br>
+                    Join Web Marlins, a PPC service provider, and experience a spike in sales, rapid company expansion, and an unrivaled competitive advantage. Unleash the full potential of your company and build a strong online presence. Experience the transforming power of strategic digital marketing by selecting Web Marlins as your ROI-focused PPC company in Delhi.
+
                     </p>
-                    <ul class="styled-list"style="margin-bottom:20px">
-                        <li class="styled-list-item">PPC</li>
-                        <li class="styled-list-item">Boost website traffic</li>
-                        <li class="styled-list-item">Pay on clicks</li>
-                        <li class="styled-list-item">More Leads</li>
-                        <li class="styled-list-item">Increase Sales</li>
-                    </ul>
                     <a href="contact" class="button secondary-button">Book a Session</a>
                 </div>
             </section>
@@ -75,6 +71,7 @@ include "./src/head.php";
             <section class="services-section w-100">
                 <div class="main-heading w-100">
                     <h4 class="mid-heading">Garner Quality Traffic With Our PPC Marketing Services</h4>
+                    <p class="grey-para">Web Marlins offers innovative PPC marketing services that drive high-quality traffic to your website. Our strategic approach, advanced targeting, and data-driven optimizations ensure maximum visibility and conversions.</p>
                 </div>
 
                 <div class="grid-3-lg grid-2-md grid-1-sm">
@@ -87,7 +84,8 @@ include "./src/head.php";
                             </h5>
                         </div>
                         <div class="grid-card-text">
-                            Working as a Google Adwords agency in Delhi, we equip businesses with tools that get your business visibility when users search for relevant services.
+                            Harness the power of Google's vast reach and target audience with our expert Google Advertising services, maximizing your online visibility and driving relevant traffic to your website.
+
                         </div>
                     </div>
                     <div class="grid-item grid-card">
@@ -98,7 +96,7 @@ include "./src/head.php";
                             </h5>
                         </div>
                         <div class="grid-card-text">
-                            Our PPC Services Company helps business brands get in front of customers worldwide by running effective Bing Ads, utilising its deep discovery tools. 
+                        Expand your reach beyond Google and tap into Bing's unique audience with our Bing Advertising services. Reach new customers and increase brand exposure on this popular search engine.
                         </div>
                     </div>
                     <div class="grid-item grid-card">
@@ -109,7 +107,7 @@ include "./src/head.php";
                             </h5>
                         </div>
                         <div class="grid-card-text">
-                            Our Google Adwords Company in Delhi focuses on providing robust eCommerce PPC services and driving a high Return On Ad Spend to businesses. 
+                        Optimize your e-commerce business with our specialized E-commerce Ads. Increase product visibility, drive sales, and maximize ROI on platforms like Google Shopping, Amazon, and more. 
                         </div>
                     </div>
                     <div class="grid-item grid-card">
@@ -120,7 +118,10 @@ include "./src/head.php";
                             </h5>
                         </div>
                         <div class="grid-card-text">
-                            Our PPC Management Company in Delhi recognises the power of Social Media Platform in driving sales and deploy effective Ads to reel in greater revenue for your business. 
+                            
+
+                            Leverage the immense targeting capabilities of Facebook Advertising to connect with your target audience. Drive engagement, conversions, and brand awareness on the world's largest social media platform.
+ 
                         </div>
                     </div>
                     <div class="grid-item grid-card">
@@ -131,7 +132,7 @@ include "./src/head.php";
                             </h5>
                         </div>
                         <div class="grid-card-text">
-                            Businesses avail our PPC services in Delhi NCR to reinvent their marketing strategies and efficiently grow their sales by reaching their audience with a renewed approach. 
+                        Stay top-of-mind with potential customers through our remarketing strategies. Reach out to prospects who have previously engaged with your website or ads, boosting conversion rates and increasing brand recall. 
                         </div>
                     </div>
                     <div class="grid-item grid-card">
@@ -142,7 +143,7 @@ include "./src/head.php";
                             </h5>
                         </div>
                         <div class="grid-card-text">
-                            Our Best PPC Company in Delhi helps your brand gain visibility on Amazon, providing it with ultimate brand exposure and product sales. 
+                        Tap into the massive potential of the Amazon marketplace with our Amazon Advertising solutions. Drive product sales, increase visibility, and outshine competitors in the highly competitive e-commerce landscape. 
                         </div>
                     </div>
                     
@@ -153,8 +154,8 @@ include "./src/head.php";
 
         <section class="why-chose-us section-type-1 w-100 cloud-background">
             <div class="main-heading">
-                <h4 class="mid-heading">Our PPC Services In Delhi Include</h4>
-                <h5 class="small-heading">Top PPC agency in Delhi for Customized PPC campaigns</h5>
+                <h4 class="mid-heading">PPC Services at Web Marlins</h4>
+                <h5 class="small-heading">Fuel your digital marketing success with Web Marlins' exceptional PPC services in Delhi. As a leading provider of result-oriented digital marketing solutions, we specialize in creating and managing strategic pay-per-click campaigns that deliver outstanding ROI.</h5>
             </div>
             
             <div class="grid-3-lg grid-2-md grid-1-sm">
@@ -166,7 +167,7 @@ include "./src/head.php";
                         </h5>
                     </div>
                     <div class="grid-card-text">
-                        Let our Google ads experts work their magic by analyzing online search keywords to help you identify high-volume keywords for optimizing your website, content, and digital ads.
+                    We conduct in-depth keyword research to identify high-value terms to drive targeted traffic to your website, ensuring optimal campaign performance and maximum visibility in search results.
                     </div>
                 </div>
                 <div class="grid-item grid-card">
@@ -176,7 +177,7 @@ include "./src/head.php";
                         </h5>
                     </div>
                     <div class="grid-card-text">
-                        Elevate your PPC campaign with engaging copywriting and get more clicks than ever before. Collaborate with our team of creative experts to achieve your goals.
+                    Our skilled copywriters create compelling ad copies that captivate your audience, encouraging clicks and driving conversions. We craft enticing messages that resonate with your target market and maximize campaign effectiveness.
                     </div>
                 </div>
                 <div class="grid-item grid-card">
@@ -186,7 +187,8 @@ include "./src/head.php";
                         </h5>
                     </div>
                     <div class="grid-card-text">
-                        Maximize your returns by bidding on profitable keywords with the help of our PPC specialists. Our team guides you in bidding on keywords with the highest ROI potential.
+                    Our experts employ advanced bid management techniques to optimize your PPC campaigns. We monitor bid prices, adjust bids in real time, and ensure your budget is allocated efficiently to achieve the best possible return on investment.
+
                     </div>
                 </div>
                 <div class="grid-item grid-card">
@@ -196,7 +198,8 @@ include "./src/head.php";
                         </h5>
                     </div>
                     <div class="grid-card-text">
-                        Our team of PPC experts can help you drive traffic to your website by analyzing your PPC campaigns performance metrics and optimizing keyword strategies for the same.
+                       To evaluate your PPC ads' success, we conduct extensive performance analysis. We identify areas for improvement and implement data-driven strategies to increase performance by monitoring key metrics and analyzing data.
+
                     </div>
                 </div>
                 <div class="grid-item grid-card">
@@ -206,7 +209,8 @@ include "./src/head.php";
                         </h5>
                     </div>
                     <div class="grid-card-text">
-                        Gain valuable insights of campaign's performance from our PPC experts, who track and analyze each campaign attribution to provide valuable insights into clicks, CPL, and conversions.
+                        We implement advanced tracking mechanisms to measure and track conversions accurately. By understanding which ads and keywords generate results, we optimize your campaigns for maximum conversion rates and profitability.
+
                     </div>
                 </div>
                 <div class="grid-item grid-card">
@@ -215,8 +219,7 @@ include "./src/head.php";
                             Performance Reporting
                         </h5>
                     </div>
-                    <div class="grid-card-text">
-                        As our partner client, you will get in-depth reports on the attribution performance of each PPC campaign. You will also get valuable insights that range from clicks to CPL to conversion.
+                    <div class="grid-card-text">We provide comprehensive performance reports that offer valuable insights into your PPC campaigns. Our reports highlight key metrics, trends, and actionable recommendations, empowering you to make informed decisions and drive continuous improvement.
                     </div>
                 </div>
                 
@@ -232,26 +235,27 @@ include "./src/head.php";
                     <div class="main-heading">
                         <h4 class="mid-heading">Performance</h4>
                         <p class="grey-para">
-                            Start working with our PPC agency team experts to enhance the results driven from your Pay Per Click Campaigns.
+                            PPC management services that propel your business forward with unparalleled expertise, innovative strategies, and a relentless commitment to delivering extraordinary results.
+
                         </p>
                     </div>
                 </div>
                 <div class="percent-fill-circle percent-83">
                     <div class="main-circle">
                         <p class="percent grey-para">83%</p>
-                        <p class="grey-para">Clicks - Increase</p>
+                        <p class="grey-para">More Clicks</p>
                     </div>
                 </div>
                 <div class="percent-fill-circle percent-59">
                     <div class="main-circle">
                         <p class="percent grey-para">59%</p>
-                        <p class="grey-para">Engagement - Increase</p>
+                        <p class="grey-para">Rise in Engagement</p>
                     </div>
                 </div>
                 <div class="percent-fill-circle percent-43">
                     <div class="main-circle">
                         <p class="percent grey-para">43%</p>
-                        <p class="grey-para">Conversions - Increase</p>
+                        <p class="grey-para">Higher Conversion Rate</p>
                     </div>
                 </div>
                 
@@ -262,41 +266,42 @@ include "./src/head.php";
 
             <section class="services-section w-100">
                 <div class="main-heading w-100" style="text-align: left;margin: 30px 0;">
-                    <h4 class="mid-heading">Partner with a Certified PPC Management Company</h4>
-                    <h5 class="small-heading">As a reliable PPC management company, we can help you reap the following benefits:</h5>
+                    <h4 class="mid-heading">Partner with a Certified PPC Agency</h4>
+                    <h5 class="small-heading">Partner with Web Marlins, a certified and affordable PPC agency in Delhi, to unlock improved brand visibility, increase quality traffic, and maximize ROI. Experience reduced CPC through our strategic optimizations, benefit from transparency in campaign performance, and captivate your audience with unique and compelling advertising copy.</h5>
                 </div>
                 <section class="services-section grid-3-lg grid-2-md grid-1-sm w-100">
                     <div class="card-1" style="margin:10px;">
                         <img src="./assets/images/card6.png" class="card-icon" alt="icon">
                         <p class="small-heading" style="font-weight: bold;">Improved Brand Visibility</p>
-                        <p class="grey-para">Following the results-driven PPC methods, we can improve your rank on the search engine and boost your social media presence to improve brand / service visibility and awareness.</p>
+                        <p class="grey-para">Enhance your brand's online presence and visibility through our strategic PPC campaigns, targeting relevant keywords and optimizing ad placements to ensure maximum exposure to your target audience.</p>
                     </div>
                     <div class="card-1" style="margin:10px;">
                         <img src="./assets/images/card7.png" class="card-icon" alt="icon">
                         <p class="small-heading" style="font-weight: bold;">Increased Quality Traffic</p>
-                        <p class="grey-para">Our exemplary and compelling targeted campaigns bring high-quality traffic to your website.</p>
+                        <p class="grey-para">Drive high-quality and suitable traffic to your website by leveraging our data-driven targeting techniques, advanced audience segmentation, and optimization strategies that attract visitors most likely to convert.</p>
                     </div>
                     <div class="card-1" style="margin:10px;">
                         <img src="./assets/images/card8.png" class="card-icon" alt="icon">
                         <p class="small-heading" style="font-weight: bold;">Maximized ROI</p>
-                        <p class="grey-para">Our calculative strategies ensure to convert the leads into potential customers and enhance your Return on Investment (ROI).</p>
+                        <p class="grey-para">We can maximize your return on investment by ensuring every advertising dollar is used effectively and producing the highest ROI possible thanks to our expertise in bid management, conversion tracking, and ongoing performance analysis.</p>
                     </div>
                     <div class="card-1" style="margin:10px;">
                         <img src="./assets/images/card9.png" class="card-icon" alt="icon">
                         <p class="small-heading" style="font-weight: bold;">Reduced CPC</p>
-                        <p class="grey-para">Our efficient team has the skill to bid on the relevant keywords, reduce total Cost-per-Conversion (CPC) and strives to improve the quality score level.</p>
+                        <p class="grey-para">We seek to reduce your cost per click (CPC) through careful campaign optimization and bid management techniques, enabling you to get greater results while maximizing your budget allocation.</p>
                     </div>
                     <div class="card-1" style="margin:10px;">
                         <img src="./assets/images/card10.png" class="card-icon" alt="icon">
                         <p class="small-heading" style="font-weight: bold;">Transparency at its Best</p>
-                        <p class="grey-para">We provide detailed performance reports periodically so you can rest assured of the optimum value for your investment.</p>
+                        <p class="grey-para">For our PPC management services, complete openness is important to us. You will get thorough reports, insights, and up-to-the-minute performance data to monitor development, comprehend campaign performance, and come to wise conclusions.</p>
                     </div>
                     <div class="card-1" style="margin:10px;">
                         <img src="./assets/images/card11.png" class="card-icon" alt="icon">
                         <p class="small-heading" style="font-weight: bold;">Unique Advertisement Copies</p>
-                        <p class="grey-para">Development of unique ad copies that stand out from the rest.</p>
+                        <p class="grey-para">Our talented copywriters craft captivating and unique ad copies that stand out from the competition, effectively communicating your brand's value proposition and compelling users to take action.</p>
                     </div>
                 </section>
+                <a href="contact" class="button secondary-button">Discover the Difference</a>
             </section>
 
            

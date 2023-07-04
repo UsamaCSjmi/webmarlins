@@ -235,6 +235,8 @@ include "./src/head.php";
                 </div>
             </section>
         </div>
+
+
         <section class="services-section cloud-background w-100">
 
             <div class="main-site-content w-100">
@@ -283,25 +285,86 @@ include "./src/head.php";
         </section>
         
 
+        <section class="services-section grey-background w-100 main-site-content">
+            <div class="contact-section w-100 center-flexbox col-flexbox">
+                <div class="main-heading center-flexbox col-flexbox">
+                    <h3 class="gradient-text has-underline mid-heading">Ready to Elevate Your Digital Presence? Get Started with Web Marlins Today!</h3>
+                    <span class="underline"></span>
+                    <div class="grid-2-lg grid-2-md grid-1-sm w-100">
+                        <div class="center-flexbox col-flexbox">
+                            <i class="fa-solid fa-phone card-service-icon" style="font-size:45px"></i>
+                            <a href="tel:+919560518618" class="mid-heading"style="margin:20px 0">+91 - 95605 18618</a>
+                            <a href="tel:+919560518618" class="color-purple">Call Us</a>
+                        </div>
+                        <div class="center-flexbox col-flexbox">
+                            <i class="fa-solid fa-envelope card-service-icon" style="font-size:45px"></i>
+                            <a href="mailto:contact@webmarlins.com" class = "mid-heading" style = "margin:20px 0" >contact@webmarlins.com</a>
+                            <a href="mailto:contact@webmarlins.com" class="color-purple">Mail Us</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
         <div class="main-site-content w-100">
             <section class="services-section grid-2-lg grid-1-md grid-1-sm">
                 
-                <div class="services-left">
-                    <img class="side-background" src="assets/images/background10.png" alt="">
-                </div>
                 <div class="services-right">
                     <div class="main-heading" style="text-align: left;">
-                        <h5 class="small-heading">Why chose us </h5>
-                        <h4 class="mid-heading">Boosts Your Website Traffic!</h4>
+                        <!-- <h5 class="small-heading">Why chose us </h5> -->
+                        <h4 class="mid-heading">Unlock the Power of High-End Web Design with Web Marlins: Elevate Your Digital Presence and Drive Remarkable Results.</h4>
                     </div>
                     <p class="service-text grey-para ">
-                        We are passionate about our work. Our designers stay ahead of the curve to provide engaging and user-friendly website designs to make your business stand out. Our developers are committed to maintaining the highest web standards so that your site will withstand the test of time. We care about your business, which is why we work with you.
+                    What advantages does premium web design have for your company? It transcends mere beauty. It develops an engaging user experience, enthralls your audience, and increases the effectiveness of your brand. We at the top e-commerce web design agency, Web Marlins, know the transforming power of superb site design.
+                    <br><br>
+                    With the help of their creative collaboration, our team of brilliant designers, engineers, and digital strategists creates visually amazing websites that are tactically and aesthetically optimized to engage your target audience and increase conversions. We blend state-of-the-art design methodologies, user-centric philosophies, and cutting-edge technologies to produce memorable digital experiences.<br><br>
+                    You can count on seamless navigation, user-friendly interfaces, and appealing images that capture your brand's essence with our high-end web design services. We make your website responsive on mobile devices, so it looks great on all of them. Our conversion-focused approach means designing with your business goals, producing compelling content, crystal-clear calls to action, and user-friendly forms.<br><br>
+                    Discover the strength of exceptional web design with Web Marlins. Let's maximize your online potential and take your company to new heights. To begin, get in touch with us immediately.
+
                     </p>
-                    <button class="button secondary-button">Discover More</button>
+                    <!-- <button class="button secondary-button">Discover More</button> -->
+                </div>
+
+                <div class="services-left">
+                    <img class="side-background" src="assets/images/background14.png" alt="">
                 </div>
             </section>
-
         </div>
+        <section class="cloud-background w-100 services-section">
+            <div class="main-site-content w-100 grid-3-lg grid-1-md grid-1-sm">
+                <div class="card-3">
+                    <div class="card-image">
+                        <img src="./assets/images/1.webp" alt="image">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-head3">Exceeding Industry Standards</div>
+                        <div class="grey-para">With our cutting-edge web design solutions, we surpass industry benchmarks, remaining one step ahead to make sure your website establishes a new benchmark in your sector.</div>
+                    </div>
+                </div>
+                <div class="card-3">
+                    <div class="card-image">
+                        <img src="./assets/images/2.jpg" alt="image">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-head3">Creative Brains</div>
+                        <div class="grey-para">By pushing the envelope and incorporating distinctive aspects into your website design, our team of gifted designers will captivate your audience and leave a lasting impression.</div>
+                    </div>
+                </div>
+                <div class="card-3">
+                    <div class="card-image">
+                        <img src="./assets/images/1.webp" alt="image">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-head3">Perfection</div>
+                        <div class="grey-para">We promise to give nothing less than flawless web design and development services. We devote rigorous attention to every detail, ensuring that your website accurately portrays your company with everything from pixel-perfect designs to faultless functioning.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     
       

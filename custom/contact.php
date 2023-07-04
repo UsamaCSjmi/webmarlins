@@ -78,9 +78,9 @@ include "./src/head.php";
                             <!-- <input type="text" id="phone" placeholder="Phone"> -->
                             <select name="sevice" id="service">
                                 <option>Select</option>
-                                <option value="seo">SEO</option>
+                                <option value="seo-services">SEO</option>
                                 <option value="ppc-services">PPC</option>
-                                <option value="smm">Social Media Marketing</option>
+                                <option value="social-media-services">Social Media Marketing</option>
                                 <option value="web deignining">Web Designing</option>
                                 <option value="web development">Web Development</option>
                                 <option value="email marketing">Email Marketing</option>

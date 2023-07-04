@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
-    <link rel="shortcut icon" href="./assets/logo.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/FAVICON.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>Web Marlins</title>
 </head>

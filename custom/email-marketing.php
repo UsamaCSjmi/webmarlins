@@ -129,13 +129,13 @@ include "./src/head.php";
                 <section class="services-section grid-3-lg grid-2-md grid-1-sm w-100">
 
                     <div class="services-box">
-                        <a href="seo" class="w-100">
+                        <a href="seo-services" class="w-100">
                             <div class="img-wrap w-100">
                                 <img src="./assets/images/sc1.jpg" alt="Service Image" class="w-100">
                             </div>
                             <div class="text-wrap">
                                 <p class="grey-para">Web</p>
-                                <a href="seo" class="bold link-dark">Seach Engine Optimization</a>
+                                <a href="seo-services" class="bold link-dark">Seach Engine Optimization</a>
                             </div>
                         </a>
                     </div>
@@ -165,13 +165,13 @@ include "./src/head.php";
                     </div>
                 
                     <div class="services-box">
-                        <a href="smm" class="w-100">
+                        <a href="social-media-services" class="w-100">
                             <div class="img-wrap w-100">
                                 <img src="./assets/images/sc2.jpg" alt="Service Image" class="w-100">
                             </div>
                             <div class="text-wrap">
                                 <p class="grey-para">Web</p>
-                                <a href="smm" class="bold link-dark">Social Media Marketing</a>
+                                <a href="social-media-services" class="bold link-dark">Social Media Marketing</a>
                             </div>
                         </a>
                     </div>

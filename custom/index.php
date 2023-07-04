@@ -10,8 +10,8 @@ include "./src/head.php";
 
 
         <section class="banner-section grid-2-lg grid-2-md grid-1-sm">
-            <div class="banner-left center-flexbox">
-                <img class="banner-image" src="./assets/images/background2.png" alt="Digital Marketing">
+            <div class="banner-left center-flexbox" style="margin-top: -100px">
+                <img class="banner-image" src="./assets/images/Banner-750x750.png" alt="Digital Marketing">
             </div>
             <div class="banner-right col-flexbox w-100">
                 <div class="banner-title-wrapper">
@@ -93,7 +93,7 @@ include "./src/head.php";
             <section class="services-section grid-2-lg grid-1-md grid-1-sm w-100">
                 
                 <div class="services-left">
-                    <img class="side-background" src="assets/images/background.png" alt="">
+                    <img class="side-background" src="assets/images/Pays-for-qualified-traffic.png" alt="">
                 </div>
                 <div class="services-right w-100">
                     <div class="main-heading" style="text-align: left;">
@@ -123,7 +123,7 @@ include "./src/head.php";
                             </div>
                         </div>
                     </div>
-                    <a href="seo" class="button secondary-button">Discover More</a>
+                    <a href="seo-services" class="button secondary-button">Discover More</a>
                 </div>
             </section>
 
@@ -152,7 +152,7 @@ include "./src/head.php";
 
                 </div>
                 <div class="services-right w-100">
-                    <img class="side-background" src="assets/images/background12.jpg" alt="">
+                    <img class="side-background" src="assets/images/Strike-ROI-750x750.png" alt="">
                 </div>
             </section>
 
@@ -289,7 +289,7 @@ include "./src/head.php";
                         <div class="grid-card-text">
                             With the help of our SEO magic, you may dominate search engine results and take the highly sought-after first places, taking your brand to new heights with our top-tier <strong> online marketing services</strong>.
                         </div>
-                        <a href="seo" class="grey-para">Read More ... </a>
+                        <a href="seo-services" class="grey-para">Read More ... </a>
                         
                     </div>
                     
@@ -323,7 +323,7 @@ include "./src/head.php";
                             As we leverage the power of social media to expand your brand's reach and influence, you can create social buzz and gather a legion of devoted fans.
 
                         </div>
-                        <a href="smm" class="grey-para">Read More ... </a>
+                        <a href="social-media-services" class="grey-para">Read More ... </a>
                     </div>
                    
                     
@@ -356,7 +356,7 @@ include "./src/head.php";
 
                         </div>
 
-                        <a href="web-development" class="grey-para">Read More ... </a>
+                        <a href="web-development-services" class="grey-para">Read More ... </a>
                     </div>
                    
                     
@@ -371,7 +371,7 @@ include "./src/head.php";
                         <div class="grid-card-text">
                             Create intriguing content that strikes a chord and inspires action by weaving engaging stories that do both.
                         </div>
-                        <a href="content-writing" class="grey-para">Read More ... </a>
+                        <a href="content-writing-services" class="grey-para">Read More ... </a>
                     </div>
                     
                     <div class="grid-item grid-card">
@@ -387,7 +387,7 @@ include "./src/head.php";
                            With the help of our well-designed email campaigns, you can unleash the potential of personalized communication to nurture leads and generate a wealth of conversions.
 
                         </div>
-                        <a href="smm" class="grey-para">Read More ... </a>
+                        <a href="social-media-services" class="grey-para">Read More ... </a>
                     </div>
                    
                 </div>
@@ -397,7 +397,7 @@ include "./src/head.php";
             <section class="services-section grid-2-lg grid-1-md grid-1-sm w-100">
                 
                 <div class="services-left">
-                    <img class="side-background" src="assets/images/background11.jpg" alt="">
+                    <img class="side-background" src="assets/images/Get-Free-Website-Analysis-7.png" alt="">
                 </div>
                 <div class="services-right w-100">
                     <div class="main-heading" style="text-align: left;">

@@ -3,6 +3,7 @@
 @import url(./navbar.css);
 @import url(./buttons.css);
 @import url(./footer.css);
+/* hello */
 *{
     margin: 0;
     padding: 0;
@@ -72,9 +73,12 @@ li{
     color: #ffffff;
 }
 
-.grid-1-lg,.grid-1-md,.grid-1-sm,.grid-2-lg,.grid-2-md,.grid-2-sm,.grid-3-lg,.grid-3-md,.grid-3-sm,.grid-4-lg,.grid-4-md,.grid-4-sm,.grid-5-lg,.grid-5-md,.grid-5-sm{
+.grid-1-lg,.grid-1-md,.grid-1-sm,.grid-2-lg,.grid-2-md,.grid-2-sm,.grid-3-lg,.grid-3-md,.grid-3-sm,.grid-4-lg,.grid-4-md,.grid-4-sm,.grid-5-lg,.grid-5-md,.grid-5-sm,.grid-6-lg,.grid-6-md,.grid-6-sm{
     display: grid;
     /* gap: 30px; */
+}
+.grid-6-lg{
+    grid-template-columns: 16.667% 16.667% 16.667% 16.667% 16.667% 16.667%;
 }
 .grid-5-lg{
     grid-template-columns: 20% 20% 20% 20% 20%;
@@ -93,6 +97,9 @@ li{
 }
 @media only screen and (max-width : 1000px){
 
+    .grid-6-md{
+        grid-template-columns: 16.667% 16.667% 16.667% 16.667% 16.667% 16.667%;
+    }
     .grid-5-md{
         grid-template-columns: 20% 20% 20% 20% 20%;
     }
@@ -111,6 +118,9 @@ li{
 }
 @media only screen and (max-width : 500px){
 
+    .grid-6-sm{
+        grid-template-columns: 16.667% 16.667% 16.667% 16.667% 16.667% 16.667%;
+    }
     .grid-5-sm{
         grid-template-columns: 20% 20% 20% 20% 20%;
     }
@@ -127,7 +137,24 @@ li{
         grid-template-columns: 100%;
     }
 }
-
+.grid-area-2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid-area-4{
+    grid-column-start: 3;
+    grid-column-end: 7;
+}
+@media only screen and (max-width:1000px){
+    .grid-area-2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .grid-area-4{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
 .grid-item{
     border-radius: 10px;
     box-shadow: 0px 0px 51px 0px rgba(9.999999999999991, 50.99999999999997, 80, 0.16);
@@ -431,6 +458,12 @@ li{
     font-size: 20px;
     letter-spacing: 5px;
 }
+.card-head3{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
 .card-1{
     padding: 10px;
 }
@@ -495,7 +528,7 @@ li{
     position: relative;
 }
 .card-service-icon{
-    width: 85px;
+    width: 90px;
     font-size: 80px;
     margin:10px 10px 10px 0px;
     z-index: 2;
@@ -707,6 +740,12 @@ li{
 }
 .cloud-background{
     background: url(../images/background5.jpg);
+    background-size: cover;
+    background-position: 100%;
+    padding: 50px 0;
+}
+.dark-background{
+    background: url(../images/about.jpg);
     background-size: cover;
     background-position: 100%;
     padding: 50px 0;
@@ -954,7 +993,7 @@ li{
 }
 .pricing-cards{
     width: 90%;
-    align-items: center;
+    align-items: flex-start;
 }
 .pricing-card{
     width: 100%;
@@ -966,10 +1005,12 @@ li{
     height: fit-content;
 }
 .pricing-head{
+    height: 250px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 50px 40px 30px 40px;
+    justify-content: center;
+    padding: 25px;
     font-size: 25px;
     font-weight: bold;
     color: #3b3663;
@@ -1002,13 +1043,18 @@ li{
     font-weight: 600;
 }
 .package-items-list{
-    padding: 30px 0;
+    border-top: 1px solid #ffffff;
+    /* border-bottom: 1px solid #ffffff; */
     margin-left: 30px;
+    position: relative;
 }
+/* .package-items-list ul:last-child{
+    border: none;
+} */
 .package-item{
     position: relative;
     list-style: disc;
-    margin: 10px 0;    
+    /* margin: 10px 0;     */
 }
 .package-item::marker{
     color: var(--dark-color);
@@ -1038,41 +1084,6 @@ li{
 .main-up-pricing .grey-para,.main-up-pricing .package-item::marker{
     color: #fff;
 }
-/*
-.dot{
-    height: 5px;
-    width: 5px;
-    border-radius: 3px;
-    position: fixed;
-    bottom: 20px;
-    left: 20px;    
-     animation: dotMovement 10s linear infinite;
-    z-index: 9999;
-}
-@keyframes dotMovement {
-    0%{
-        left: 40px;
-        bottom: 0;
-    }
-
-    25%{
-        left: 60px;
-        bottom: 25%;
-    }
-    50%{
-        left: 40px;
-        bottom: 50%;
-    }
-    75%{
-        left: 60px;
-        bottom: 75%;
-    }
-    100%{
-        left: 40px;
-        bottom: 100%;
-    }
-}
-*/
 .bubbles_wrap {
     position: fixed;
     left: 0;
@@ -1449,9 +1460,113 @@ background: #5ed5cb;
 .pd-20{
     padding: 20px;
 }
+.card-3{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card-image{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.card-image img{
+    width: 100%;
+    min-height: 100%;
+}
+.card-content{
+    padding:40px 20px;
+    text-align: center;
+}
+.pricing-card ul li{
+    height: 80px;
+    margin: 0;
+    margin-left: 30px;
 
+}
 
+.pricing-card ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-height: 80px;
+    overflow-y: hidden;
+    transition: max-height 0.5s ease;
+}
 
+.package-items-list li:nth-child(1){
+    cursor: pointer;
+}
+
+.package-items-list li:nth-child(1):hover{
+    color:#3b3663;
+    transition: color 0.5s ease;
+}
+
+.package-items-list li:nth-child(1)::after{
+    content: "+";
+    position: absolute;
+    right: 0;
+}
+#packages .owl-nav{
+    display: block;
+}
+#packages .owl-prev{
+    position: absolute;
+    top: 80px;
+    left: 5px;
+}
+#packages .owl-next{
+    position: absolute;
+    top: 80px;
+    right: 5px;
+}
+
+.showing{
+    max-height: 8000px!important;
+    transition: max-height 0.5s ease;
+}
+.strip-icon{
+    font-size:50px;
+    color: #007BB6;
+}
+.contact-strip{
+    margin: -80px 0 20px 0;
+    z-index: 1;
+}
+.strip-inner{
+    background: #fff;
+    width: 90%;
+    align-items: center;
+    display: grid;
+    padding: 50px;
+    grid-template-columns: auto auto auto;
+    box-shadow: 0px 0px 51px 0px rgba(9.999999999999991, 50.99999999999997, 80, 0.16);
+    border-radius: 80px;
+    line-height: 30px;
+}
+.strip-item{
+    margin: 20px 0;
+}
+.blue-para{
+    color: #007BB6;
+}
+.dark-para{
+    color: #000000;
+}
+.phone-background{
+    background: url(../images/phone-inner.webp);
+    background-size: 97% 98%;
+    width: 526.5px;
+    border-radius: 47px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 /* 
 68554
 

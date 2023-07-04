@@ -243,19 +243,29 @@ function showMessage(type,id){
 function menu(action){
     main_menu = document.getElementById('nav-list');
     open_btn = document.getElementById('menu-open');
+    nav_part = document.getElementById('navigation-part');
     close_btn = document.getElementById('menu-close');
     if(action=="open"){
         open_btn.style.display = "none";
+        // nav_part.style.display = "block";
         close_btn.style.display = "block";
-        main_menu.classList.add("active-nav")
+        nav_part.classList.add("active-nav")
     }
     else if(action == "close"){
         close_btn.style.display = "none";
+        // nav_part.style.display = "none";
         open_btn.style.display = "block";
-        main_menu.classList.remove("active-nav")
+        nav_part.classList.remove("active-nav")
     }
 }
 
 function scrollToTop() {
     window.scrollTo(0, 0);
+}
+
+function showList(listNo){
+    lists = document.getElementsByClassName('list-'+listNo);
+    for(i=0;i<lists.length;i++){
+        lists[i].classList.toggle("showing");
+    }
 }
