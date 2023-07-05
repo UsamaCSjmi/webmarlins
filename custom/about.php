@@ -13,7 +13,6 @@ include "./src/head.php";
 
 
         <section class="about-banner-section w-100 center-flexbox col-flexbox">
-        <!-- <section class="about-banner-section w-100 about center-flexbox col-flexbox"> -->
             <img src="./assets/images/about.jpg" alt="About Us" class="about-background">
             <h1>About Us</h1>
             <div class="banner-links center-flexbox">

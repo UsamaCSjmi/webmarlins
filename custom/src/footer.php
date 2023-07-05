@@ -58,7 +58,7 @@
                     <li><a href="web-design-services" class="grey-para">Website Designing</a></li>
                     <li><a href="web-development-services" class="grey-para">Website Development</a></li>
                     <li><a href="content-writing-services" class="grey-para">Content Writing</a></li>
-                    <li><a href="email-marketing" class="grey-para">Email Marketing</a></li>
+                    <li><a href="email-marketing-services" class="grey-para">Email Marketing</a></li>
                     </ul>
                 </div>
             </div>

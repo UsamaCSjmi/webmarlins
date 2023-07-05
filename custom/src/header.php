@@ -40,7 +40,7 @@
                                 <a href="web-development-services" class="nav-link">Website Development</a>
                             </li>
                             <li class="nav-list-item">
-                                <a href="email-marketing" class="nav-link">Email Marketing</a>
+                                <a href="email-marketing-services" class="nav-link">Email Marketing</a>
                             </li>
                         </ul>
                     </li>
