@@ -11,7 +11,7 @@ include "./src/head.php";
 
         <section class="banner-section grid-2-lg grid-2-md grid-1-sm">
             <div class="banner-left center-flexbox" style="margin-top: -100px">
-                <img class="banner-image" src="./assets/images/Banner-750x750.png" alt="Digital Marketing">
+                <img class="banner-image" src="./assets/images/custom_images/Banner-750x750.png" alt="Digital Marketing">
             </div>
             <div class="banner-right col-flexbox w-100">
                 <div class="banner-title-wrapper">
@@ -93,7 +93,7 @@ include "./src/head.php";
             <section class="services-section grid-2-lg grid-1-md grid-1-sm w-100">
                 
                 <div class="services-left">
-                    <img class="side-background" src="assets/images/Pays-for-qualified-traffic.png" alt="">
+                    <img class="side-background" src="assets/images/custom_images/Pays-for-qualified-traffic.png" alt="">
                 </div>
                 <div class="services-right w-100">
                     <div class="main-heading" style="text-align: left;">
@@ -152,7 +152,7 @@ include "./src/head.php";
 
                 </div>
                 <div class="services-right w-100">
-                    <img class="side-background" src="assets/images/Strike-ROI-750x750.png" alt="">
+                    <img class="side-background" src="assets/images/custom_images/Strike-ROI-750x750.png" alt="">
                 </div>
             </section>
 
@@ -397,7 +397,7 @@ include "./src/head.php";
             <section class="services-section grid-2-lg grid-1-md grid-1-sm w-100">
                 
                 <div class="services-left">
-                    <img class="side-background" src="assets/images/Get-Free-Website-Analysis-7.png" alt="">
+                    <img class="side-background" src="assets/images/custom_images/Get-Free-Website-Analysis-7.png" alt="">
                 </div>
                 <div class="services-right w-100">
                     <div class="main-heading" style="text-align: left;">

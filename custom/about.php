@@ -23,24 +23,7 @@ include "./src/head.php";
 
 
         <div class="main-site-content w-100">
-            <!-- <section class="about-us-cards grid-3-lg grid-1-md grid-1-sm">
-                <div class="about-card backgroung-color-1 center-flexbox col-flexbox">
-                    <img src="./assets/images/card1.png" alt="card">
-                    <h3 class="about-us-card-head">Competitor Analysis</h3>
-                    <p class="about-us-card-text">Delectus recteque has ne, no pro tation commodo. Ea libris utamur vix, in sumo augue soluta vis.</p>
-                </div>
-                <div class="about-card backgroung-color-2 center-flexbox col-flexbox">
-                    <img src="./assets/images/card2.png" alt="card">
-                    <h3 class="about-us-card-head">Competitor Analysis</h3>
-                    <p class="about-us-card-text">Delectus recteque has ne, no pro tation commodo. Ea libris utamur vix, in sumo augue soluta vis.</p>
-                </div>
-                <div class="about-card backgroung-color-3 center-flexbox col-flexbox">
-                    <img src="./assets/images/card3.png" alt="card">
-                    <h3 class="about-us-card-head">Competitor Analysis</h3>
-                    <p class="about-us-card-text">Delectus recteque has ne, no pro tation commodo. Ea libris utamur vix, in sumo augue soluta vis.</p>
-                </div>
-            </section> -->
-            
+          
             <section class="services-section grid-2-lg grid-1-md grid-1-sm" style="margin-top: 30px">
                 <div class="services-right">
                     <div class="main-heading" style="text-align: left;">
@@ -56,7 +39,7 @@ include "./src/head.php";
                     <button class="button secondary-button">Discover More</button>
                 </div>
                 <div class="services-left">
-                    <img class="side-background" src="assets/images/background3.jpg" alt="">
+                    <img class="side-background" src="assets/images/custom_images/750x750--Revolutionizing-Digital-Marketing-Since-2017.png" alt="">
                 </div>
             </section>
 
@@ -70,7 +53,7 @@ include "./src/head.php";
 
             <section class="services-section grid-2-lg grid-1-md grid-1-sm w-100">                
                 <div class="services-left">
-                    <img class="side-background" src="assets/images/background4.png" alt="">
+                    <img class="side-background" src="assets/images/custom_images/750x750-Revolutionizing-Digital-Marketing-Since-2017.jpg" alt="">
                 </div>
                 <div class="services-right w-100">
                     
