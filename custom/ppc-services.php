@@ -7,14 +7,14 @@ include "./src/head.php";
         include "./src/header.php";
     ?>     
 
-        <section class="services-section cloud-background w-100">
+        <section class="services-section ppc-background w-100">
             <div class="banner-links breadcrumb">
                 <a href="./" class="previous-link">Home</a>
                 <p class="this-page">PPC</p>
             </div>
             <div class="services-section grid-2-lg grid-1-md grid-1-sm w-100">
                 <div class="services-right w-100" style="align-items: center;justify-content: center;">
-                    <img src="./assets/images/background10.png" alt="Computer" style="width:50%">
+                    <!-- <img src="./assets/images/background10.png" alt="Computer" style="width:50%"> -->
                 </div>
                 <div class="services-left w-100" style="padding-right: 20px;">
                     <div class="main-heading w-100" style="text-align: left;">
@@ -52,7 +52,7 @@ include "./src/head.php";
             <section class="services-section grid-2-lg grid-1-md grid-1-sm" style="margin-top: 30px">
                 
                 <div class="services-left">
-                    <img class="side-background" src="assets/images/background4.png" alt="">
+                    <img class="side-background" src="assets/images/custom_images/Pay-Per-Click/Boost-Sales-with-ROI-Focused-PPC-Agency-in-Delhi.png" alt="">
                 </div>
                 <div class="services-right">
                     <div class="main-heading" style="text-align: left;">
@@ -152,7 +152,7 @@ include "./src/head.php";
 
         </div>
 
-        <section class="why-chose-us section-type-1 w-100 cloud-background">
+        <section class="why-chose-us section-type-1 w-100 pink-background">
             <div class="main-heading">
                 <h4 class="mid-heading">PPC Services at Web Marlins</h4>
                 <h5 class="small-heading">Fuel your digital marketing success with Web Marlins' exceptional PPC services in Delhi. As a leading provider of result-oriented digital marketing solutions, we specialize in creating and managing strategic pay-per-click campaigns that deliver outstanding ROI.</h5>
@@ -264,12 +264,12 @@ include "./src/head.php";
 
         <div class="main-site-content w-100">
 
-            <section class="services-section w-100">
+            <div class="services-section w-100">
                 <div class="main-heading w-100" style="text-align: left;margin: 30px 0;">
                     <h4 class="mid-heading">Partner with a Certified PPC Agency</h4>
                     <h5 class="small-heading">Partner with Web Marlins, a certified and affordable PPC agency in Delhi, to unlock improved brand visibility, increase quality traffic, and maximize ROI. Experience reduced CPC through our strategic optimizations, benefit from transparency in campaign performance, and captivate your audience with unique and compelling advertising copy.</h5>
                 </div>
-                <section class="services-section grid-3-lg grid-2-md grid-1-sm w-100">
+                <div class="services-section grid-3-lg grid-2-md grid-1-sm w-100">
                     <div class="card-1" style="margin:10px;">
                         <img src="./assets/images/card6.png" class="card-icon" alt="icon">
                         <p class="small-heading" style="font-weight: bold;">Improved Brand Visibility</p>
@@ -300,9 +300,9 @@ include "./src/head.php";
                         <p class="small-heading" style="font-weight: bold;">Unique Advertisement Copies</p>
                         <p class="grey-para">Our talented copywriters craft captivating and unique ad copies that stand out from the competition, effectively communicating your brand's value proposition and compelling users to take action.</p>
                     </div>
-                </section>
+                </div>
                 <a href="contact" class="button secondary-button">Discover the Difference</a>
-            </section>
+            </div>
 
            
         </div>

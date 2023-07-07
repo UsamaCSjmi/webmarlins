@@ -338,7 +338,7 @@ include "./src/head.php";
                         <div class="grid-card-text">
                             Attractive web designs can capture hearts and minds by fusing creativity and practicality to engage users and encourage conversions.
                         </div>
-                        <a href="web-design" class="grey-para">Read More ... </a>
+                        <a href="web-design-services" class="grey-para">Read More ... </a>
                         
                     </div>
                    
@@ -387,7 +387,7 @@ include "./src/head.php";
                            With the help of our well-designed email campaigns, you can unleash the potential of personalized communication to nurture leads and generate a wealth of conversions.
 
                         </div>
-                        <a href="social-media-services" class="grey-para">Read More ... </a>
+                        <a href="email-marketing-services" class="grey-para">Read More ... </a>
                     </div>
                    
                 </div>

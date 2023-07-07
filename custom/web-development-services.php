@@ -12,12 +12,12 @@ include "./src/head.php";
                 <a href="./" class="previous-link" >Home</a>
                 <p class="this-page">Web Development</p>
             </div>
-            <div class="services-section main-site-content grid-2-lg grid-1-md grid-1-sm w-100">
+            <div class="services-section main-site-content grid-2-lg grid-2-md grid-1-sm w-100">
                 <div class="services-left w-100" style="padding-right: 20px;">
                     <div class="main-heading w-100" style="text-align: left;">
                         <h4 class="mid-heading">Web Development Company In Delhi NCR</h4>
                         <h4 class="small-heading">Why Choose Web Marlins as your Web Development Company in Delhi?</h4>
-                        <div class="grid-2-lg grid-1-md grid-1-sm" style="margin-top: 30px;">
+                        <div class="grid-2-lg grid-2-md grid-2-sm" style="margin-top: 30px;">
                             <div class="card-1">
                                 <img src="./assets/images/card5.png" class="card-icon" alt="icon">
                                 <p class="small-heading">Professional Quality Web Design</p>

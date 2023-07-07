@@ -96,7 +96,10 @@ li{
     grid-template-columns: 100%;
 }
 @media only screen and (max-width : 1000px){
-
+    .col-rev-md{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .grid-6-md{
         grid-template-columns: 16.667% 16.667% 16.667% 16.667% 16.667% 16.667%;
     }
@@ -117,7 +120,10 @@ li{
     }
 }
 @media only screen and (max-width : 500px){
-
+    .col-rev-sm{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .grid-6-sm{
         grid-template-columns: 16.667% 16.667% 16.667% 16.667% 16.667% 16.667%;
     }
@@ -740,6 +746,18 @@ li{
 }
 .cloud-background{
     background: url(../images/background5.jpg);
+    background-size: cover;
+    background-position: 100%;
+    padding: 50px 0;
+}
+.pink-background{
+    background: url(../images/custom_images/2000x2000/2000x2000.jpg);
+    background-size: cover;
+    background-position: 100%;
+    padding: 50px 0;
+}
+.ppc-background{
+    background: url(../images/custom_images/Pay-Per-Click/PPc-Banner.jpg);
     background-size: cover;
     background-position: 100%;
     padding: 50px 0;
@@ -1563,9 +1581,14 @@ background: #5ed5cb;
     background: url(../images/phone-inner.webp);
     background-size: 97% 98%;
     width: 526.5px;
-    border-radius: 47px;
+    border-radius: 12.9%;
     background-repeat: no-repeat;
     background-position: center;
+}
+@media only screen and (max-width:1000px){
+    .phone-background{
+        width:100%;
+    }
 }
 /* 
 68554
